@@ -67,9 +67,20 @@ a:focus {
     text-decoration: none;
 }
 
+#header {
+    height: 1.7rem;
+}
+.head-fix {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background:#fff;
+}
 .top {
-    height: .68rem;
-    line-height: .68rem;
+    height: .58rem;
+    line-height: .58rem;
     padding: 0 .5rem;
     text-align: right;
     font-size: .18rem;
@@ -151,8 +162,8 @@ h1.title p {
     margin: 0 auto .6rem;
     width: 6.4rem;
     height: .6rem;
-    background: linear-gradient(270deg, rgba(40, 79, 204, 1) 0%, rgba(89, 168, 255, 1) 100%);
-    ;
+    background: url("../images/nav-bg.png") no-repeat;
+    background-size:100% 100%;
     box-shadow: .01rem 0 .2rem .05rem rgba(87, 132, 253, 0.1);
     border-radius: .4rem;
     overflow: hidden;
@@ -176,7 +187,6 @@ h1.title p {
 
 .head-btn a:last-child {
     color: #0E1F3B;
-    background: rgba(255, 255, 255, 1);
 }
 
 .banner img {
@@ -194,7 +204,7 @@ h1.title p {
 }
 
 .content h2 {
-    padding: 1rem 0 .3rem;
+    padding: 1.6rem 0 .3rem;
     font: .72rem/.92rem 'NeoSansIntel';
 }
 
@@ -626,7 +636,10 @@ h1.title p {
     height: 1.8rem;
 }
 
-.item8 li .list p {
+
+
+.item8 li .list .partner-box {
+    position: relative;
     float: left;
     margin: 0 .2rem .2rem 0;
     width: 2rem;
@@ -638,10 +651,38 @@ h1.title p {
     text-align: center;
 }
 
-.item8 li .list p img {
-    vertical-align: middle;
+.item8 li .list .partner-box .info {
+    display: none;
+    position: absolute;
+    left: .2rem;
+    top: 1rem;
+    width: 6rem;
+    padding: .4rem .5rem;
+    z-index: 2;
+    background:rgba(255,255,255,1);
+    box-shadow:0px .02rem .25rem .1rem rgba(48,93,212,0.1);
+    border-radius: .08rem;
+}
+.item8 li .list .partner-box:hover .info{
+    display: block;
 }
 
+.partner-box .info h5{
+    font: .36rem/.46rem 'NeoSansIntel';
+    padding-bottom: .3rem
+}
+.partner-box .info p{
+    font-size: .2rem;
+    line-height: .34rem;
+}
+
+.item8 li .list .partner-box img {
+    vertical-align: middle;
+}
+.item8 li .list .partner-box .right{
+    left: auto;
+    right: 0;
+}
 .item9 section {
     position: relative;
     padding-left: 5.2rem;
@@ -1039,6 +1080,8 @@ h1.title p {
     border-radius: .3rem;
     font: .24rem/.6rem 'NeoSansIntel';
     overflow: hidden;
+    background:url("../images/arr1.png") 98% center no-repeat;
+    background-size: .16rem .09rem;
 }
 .faq .right h5 span {
     position: absolute;
@@ -1054,13 +1097,15 @@ h1.title p {
 .faq .right li > div {
     display: none;
     position: relative;
-    padding:0 .5rem .3rem .96rem;
+    padding:0 2% .3rem .96rem;
     margin-top: .3rem;
     box-shadow:0 .04rem .22rem 0 rgba(48,93,212,0.1);
     border-radius: .06rem;
 }
 .faq .right h6 {
     font: .24rem/.6rem 'NeoSansIntel';
+    background:url("../images/arr2.png") right center no-repeat;
+    background-size: .16rem .09rem;
 }
 .faq .right div>span {
     position: absolute;

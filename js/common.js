@@ -32,11 +32,11 @@ $(function() {
         $('.right ul').hide().eq(index).show();
     }) 
 
-    $(".item5").on("click",".positive img",function(){
+    $(".item5 .positive img").hover(function(){
         $(this).parents(".positive").hide().next(".negative").show()
     })
 
-    $(".item5").on("click",".negative",function(){
+    $(".negative").hover(function(){},function(){
         $(this).hide().prev(".positive").show()
     })
 
