@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="news-main">
+        <!-- <ul class="top-banner">
+            <li>
+                <div class="img"></div>
+                <p>Partnership Announcement HNB x Haomai Eco</p>
+            </li>
+            <li>
+                <div class="img"></div>
+                <p>Announcement HNB</p>
+            </li>
+            <li>
+                <div class="img"></div>
+                <p>Announcement HNB</p>
+            </li>
+        </ul> -->
+        <div class="news-con">
+            <!-- <ul class="news-nav">
+                <li class="on">HNB快讯</li>
+                <li>中文媒体报道</li>
+                <li>英文媒体报道</li>
+                <li>韩文媒体报道</li>
+            </ul> -->
+            <ul class="news-list">
+                {% for post in site.posts %}
+                    <li>
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            <div class="img"><img src="{{ post.preview }}"></div>
+                            <h5>{{ post.title }}</h5>
+                            <span>{{ post.date | date_to_string }}</span>
+                            <p>{{ post.excerpt }}</p>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+</div>

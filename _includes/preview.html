@@ -1,0 +1,430 @@
+<!-- {% for post in site.posts  limit:2 %}
+    {% cycle 'add row' : '<div class="row">', '', '' %}
+        <div class="column column-33">
+            <div class="preview-panel">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img src="{{ post.preview }}">
+                </a>
+                <div class="post-title">{{ post.title }}</div>
+           </div>
+        </div>
+{% cycle 'end row' : '', '', '</div>' %}
+{% endfor %}
+{% cycle 'end row' : '', '</div>', '</div>' %} -->
+<div class="main">
+    <div id="mainBox"></div>
+    <div class="item9 box">
+        <section>
+            <h2>Newsroom</h2>
+            <div class="news">
+                <a href="{{ site.posts[0].url | prepend: site.baseurl }}"><div class="img"><img src="{{ site.posts[0].preview }}"></div></a>
+                <h5>{{ site.posts[0].title }}</h5>
+                <span>{{ site.posts[0].date | date_to_string }}</span>
+                <p>{{ site.posts[0].excerpt }}<a href="{{ site.posts[0].url | prepend: site.baseurl }}">read more</a></p>
+            </div>
+        </section>
+        <ul>
+            <li class="news">
+                <a href="{{ site.posts[1].url | prepend: site.baseurl }}">
+                    <div class="img"><img src="{{ site.posts[1].preview }}"></div>
+                    <h5>{{ site.posts[1].title }}</h5>
+                    <p>{{ site.posts[1].excerpt }}</p>
+                </a>
+            </li>
+            <li class="news">
+                <a href="{{ site.posts[2].url | prepend: site.baseurl }}">
+                    <div class="img"><img src="{{ site.posts[2].preview }}"></div>
+                    <h5>{{ site.posts[2].title }}</h5>
+                    <p>{{ site.posts[2].excerpt }}</p>
+                </a>
+            </li>
+            <li class="news">
+                <a href="{{ site.posts[3].url | prepend: site.baseurl }}">
+                    <div class="img"><img src="{{ site.posts[3].preview }}"></div>
+                    <h5>{{ site.posts[3].title }}</h5>
+                    <p>{{ site.posts[2].excerpt }}</p>
+                </a>
+            </li>
+        </ul>
+        <div class="news-btn"><a href="{{ site.baseurl }}/newsroom/">All News</a></div>
+    </div>
+    <div id="mainEmail"></div>
+</div>
+
+<script id="mainBoxTmpl" type="text/html">
+    <h1 class="title box">
+        <p>
+            <%=data.top.title%>
+        </p>
+        <%=data.top.des%>
+    </h1>
+    <div class="head-btn">
+        <a href="http://c.hnb.wiki/Twopage-en.pdf"  target="_blank"><span><%=data.top.nav.summary%></span></a>
+        <a href="http://c.hnb.wiki/whitepaper.pdf" target="_blank"><span><%=data.top.nav.whitepaper%></span></a>
+        <a href="index.html#email"><span><%=data.top.nav.newsletter%></span></a>
+    </div>
+    <div class="banner box"><img src="images/pic copy@2x.png"></div>
+
+    <div class="item1 box" id="features">
+        <section class="content">
+            <h2>What is HNB?</h2>
+            <p>HNB is building a decentralized blockchain network where individuals and enterprises can exchange products and services with trust and security. The dual-token system of HNB and HGS, combined with the hybrid consensus algorithm of DPOS and Algorand provides the infrastructure for a stable and robust ecosystem.</p>
+        </section>
+        <ul>
+            <li>
+                <div class="img"><img src="images/Group 77@2x.png"></div>
+                <h5>Dual-token structure</h5>
+                <p>The HNB token represents ownership of the HNB economic entity, while the HGS token is a stable payment medium.</p>
+            </li>
+            <li>
+                <div class="img"><img src="images/Group 79@2x.png"></div>
+                <h5>Hybrid consensus algorithm</h5>
+                <p>High security and high efficiency are achieved by combining DPOS and Algorand.</p>
+            </li>
+            <li>
+                <div class="img"><img src="images/Group 82@2x.png"></div>
+                <h5>Instant payments</h5>
+                <p>Instant transactions with no fees.</p>
+            </li>
+            <li>
+                <div class="img"><img src="images/Group 84@2x.png"></div>
+                <h5>Algorithmic Bank</h5>
+                <p>HGS token issuance fluctuates based on the scale and liquidity of the decentralized economy.</p>
+            </li>
+            <li>
+                <div class="img"><img src="images/Group 87@2x.png"></div>
+                <h5>Multi-sidechain structure</h5>
+                <p>Enterprises can integrate their own sidechains to allow for issuance of new digital assets interchangeable with the HNB main chain.</p>
+            </li>
+            <li>
+                <div class="img"><img src="images/Group 91@2x.png"></div>
+                <h5>Lightweight SDK access</h5>
+                <p>Ultra-lightweight merchant SDK access, allowing merchants to turn their product into a DApp within one day.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="item2">
+        <div>
+            <p>300,000</p>Users</div>
+        <div>
+            <p>10,000</p>Enterprises</div>
+        <div>
+            <p>10+</p>Countries</div>
+    </div>
+
+    <div class="item3 box" id="ecosystem">
+        <section class="content">
+            <h2>The HNB Ecosystem</h2>
+            <p>HNB is connecting the global economy with the decentralized digital economy.</p>
+        </section>
+        <div class="system">
+            <div class="left"><img src="images/Group 34@2x.png"></div>
+            <div class="right">
+                <ul>
+                    <li class="icon-sys1">
+                        <h5>E-Commerce Ecosystem</h5>
+                        <p>Explore the possibilities of retail and trade in a trusted environment</p>
+                    </li>
+                    <li class="icon-sys2">
+                        <h5>Built-in Token Exchange</h5>
+                        <p>Safely exchange tokens within your wallet through our decentralized order books</p>
+                    </li>
+                    <li class="icon-sys3">
+                        <h5>DApp Community</h5>
+                        <p>Seamlessly build and integrate your own business with the decentralized digital economy</p>
+                    </li>
+                    <li class="icon-sys4">
+                        <h5>Multi-Chain Digital Asset Wallet</h5>
+                        <p>Store your digitals assets in a highly secure mobile wallet</p>
+                    </li>
+                </ul>
+                <a href="https://www.pgyer.com/W11h" target="_blank" class="download-btn">Download the wallet</a>
+                <p class="code"><img src="images/code.png"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="item4 box" id="roadmap">
+        <section class="content">
+            <h2>Roadmap</h2>
+        </section>
+        <ul>
+            <li>
+                <div class="txt">
+                <h5>RESEARCH</h5>Initial project investment and intensive research on decentralized applications and blockchain technology</div>
+                <p class="border1 blue"><span><i></i></span>Q1 2017</p>
+            </li>
+            <li>
+                <div class="txt">
+                <h5>TEAM FORMATION</h5>Core team established in Shanghai and Canada</div>
+                <p class="border1 blue"><span><i></i></span>Q4 2017</p>
+            </li>
+            <li>
+                <div class="txt">
+                <h5>BLUEPRINT</h5>Decentralized economic model and technical solution design</div>
+                <p class="border1-left blue"><span><i></i></span>Q1 2018</p>
+            </li>
+            <li>
+                <div class="txt">
+                <h5>CONSOLIDATION</h5>HNB/HGS ERC-20 based wallet launched</div>
+                <p class="border2-left yello"><span><i></i></span>Q4 2018</p>
+            </li>
+            <li>
+                <div class="txt">
+                <h5>PROMOTION</h5>DApp SDK and underlying ERC20-based architecture development</div>
+                <p class="border2 yello"><span><i></i></span>Q3 2018</p>
+            </li>
+            <li>
+                <div class="border2-right txt">
+                <h5>VERIDICATION</h5>POC launch, and verification of the HNB economic model</div>
+                <p class="blue colorB"><em></em><span><i></i></span>Q2 2018</p>
+            </li>
+            <li>
+                <div class="border3-left txt">
+                <h5>MAINNET 1.0 LAUNCH</h5>Launch two public chains for the dual-token model HNB and HGS</div>
+                <p class="yello"><span><i></i></span>Q2 2019</p>
+            </li>
+            <li>
+                <div class="txt">
+                <h5>MAINNET UPGRADE</h5>Improve chain performance and achieve faster payments</div>
+                <p class="border3 yello"><span><i></i></span>Q3 2019</p>
+            </li>
+            <li>
+                <div class="txt">
+                <h5>MAINNET 2.0 LAUNCH</h5>Support sidechain and cross-chain communication. Support merchants to publish digital assets</div>
+                <p class="border3 yello"><span><i></i></span>Q4 2019</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="item5 box" id="team">
+        <section class="content">
+            <h2>Leadership Team</h2>
+        </section>
+        <ul>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 8 Copy 2@2x.png"></div>
+                    <div class="name">Ken Lee</div>
+                    <div class="tit">CEO/Co-Founder</div>
+                    <a class="link-in" target="_blank" href="https://www.linkedin.com/in/ken-lee-2332462a/"></a>
+                </div>
+                <div class="negative">
+                    <div class="name">Ken Lee</div>
+                    <div class="tit">CEO/Co-Founder</div>
+                    <div class="info">Ken has over 20 years working experience in the IT and investment fields, and co-founded three investment funds. He co-founded the HNB project in 2017.</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 1 Copy@2x.png"></div>
+                    <div class="name">Alan Wu</div>
+                    <div class="tit">COO/Co-Founder</div>
+                    <a class="link-in" target="_blank" href="https://www.linkedin.com/in/aladwu/"></a>
+                </div>
+                <div class="negative">
+                    <div class="name">Alan Wu</div>
+                    <div class="tit">COO/Co-Founder</div>
+                    <div class="info">Alan graduated from Fudan University, with a Master in Computer Science. He has served as the Lead Enterprise Architect of Hewlett-Packard and HPE Canada for over 9 years. He co-founded the HNB project in 2017.</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 1 Copy 2@2x.png"></div>
+                    <div class="name">Mark Treleaven</div>
+                    <div class="tit">CSO/Co-Founder</div>
+                    <a class="link-in" target="_blank" href="https://www.linkedin.com/in/mark-treleaven-364225/"></a>
+                </div>
+                <div class="negative">
+                    <div class="name">Mark Treleaven</div>
+                    <div class="tit">CSO/Co-Founder</div>
+                    <div class="info">Mark has over 15 years of experience in executive and strategic leadership positions, including Director of PWC Canada and McKinsey consultant. Mark completed a Master Degree in Computer Science at York University.</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 1 Copy 3@2x.png"></div>
+                    <div class="name">Joe Lee</div>
+                    <div class="tit">CMO</div>
+                    <a class="link-in" target="_blank" href="https://www.linkedin.com/in/yizhou-li-507140168/?trk=profile_share_wechat"></a>
+                </div>
+                <div class="negative">
+                    <div class="name">Joe Lee</div>
+                    <div class="tit">CMO</div>
+                    <div class="info">Joe was the Founder and CEO of Thinskey, and has over 10 years working experience in multinational enterprises. He completed his Ph.D. at Tsinghua University.</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 1 Copy 4@2x.png"></div>
+                    <div class="name">Tony Chang</div>
+                    <div class="tit">CTO</div>
+                    <a class="link-in" target="_blank" href="https://www.linkedin.com/in/zhang-tony-8a0266168/"></a>
+                </div>
+                <div class="negative">
+                    <div class="name">Tony Chang</div>
+                    <div class="tit">CTO</div>
+                    <div class="info">Tony has worked for Dupont, Gemalto, and BASF as an IT Director for more than 20 years. He joined HNB in 2017 as the leader of Blockchain governance design and Chief Technology Officer.</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="item6 box" id="advisors">
+        <section class="content">
+            <h2>Advisors</h2>
+        </section>
+        <ul>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 4@2x.png"></div>
+                    <div class="name">Richard Wang</div>
+                    <div class="tit">DFJ Dragon Fund</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 13@2x.png"></div>
+                    <div class="name">Bill Ming</div>
+                    <div class="tit">CEO Creative Fund</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 11@2x.png"></div>
+                    <div class="name">Meng Qinghai</div>
+                    <div class="tit">My Tech Fund</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 6@2x.png"></div>
+                    <div class="name">Zhu Kang</div>
+                    <div class="tit">BN Capital</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 7@2x.png"></div>
+                    <div class="name">Rain Huan</div>
+                    <div class="tit">Atlas Capital</div>
+                </div>
+            </li>
+            <li>
+                <div class="positive">
+                    <div class="img"><img src="images/Image 9@2x.png"></div>
+                    <div class="name">Yu Jianghong</div>
+                    <div class="tit">My Tech Fund</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="item7 box">
+        <section class="content">
+            <h2>Strategic partners</h2>
+        </section>
+        <ul>
+            <li>
+                <img src="images/Probing Fund@2x.png">
+                <p>Probing Fund</p>
+            </li>
+            <li>
+                <img src="images/BN Capital@2x.png">
+                <p>BN Capital</p>
+            </li>
+            <li>
+                <img src="images/Creative Manger Ventures Creative Manger Ventures @2x.png">
+                <p>Creative Fund</p>
+            </li>
+            <li>
+                <img src="images/E-Fund@2x.png">
+                <p>E-Fund</p>
+            </li>
+            <li>
+                <img src="images/MyTech Fund@2x.png">
+                <p>MyTech Fund</p>
+            </li>
+            <li>
+                <img src="images/HongLian Capital@2x.png">
+                <p>HongLian Capital</p>
+            </li>
+            <li>
+                <img src="images/BetaCoin Fund@2x.png">
+                <p>BetaCoin Fund</p>
+            </li>
+            <li>
+                <img src="images/Skyline Capital@2x.png">
+                <p>Skyline Capital</p>
+            </li>
+            <li>
+                <img src="images/Atlas Capital@2x.png">
+                <p>Atlas Capital</p>
+            </li>
+            <li>
+                <img src="images/TimeLine@2x.png">
+                <p>TimeLine</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="item8 box">
+        <section class="content">
+            <h2>Partners</h2>
+        </section>
+        <ul>
+            <li>
+                <div class="tit"><i><img src="images/icon-partner1.png"></i>E-commerce</div>
+                <div class="list">
+                    <p><img src="images/partners1.png" style="width:.62rem"></p>
+                    <p><img src="images/partners2.png" style="width:1.22rem"></p>
+                    <p><img src="images/partners3.png" style="width:.85rem"></p>
+                    <p><img src="images/partners4.png" style="width:.71rem"></p>
+                </div>
+            </li>
+            <li>
+                <div class="tit"><i><img src="images/icon-partner2.png"></i>Data Analytics</div>
+                <div class="list">
+                    <p><img src="images/partners5.png" style="width:.71rem"></p>
+                    <p><img src="images/partners6.png" style="width:1.25rem"></p>
+                </div>
+            </li>
+            <li>
+                <div class="tit"><i><img src="images/icon-partner3.png"></i>Social Network</div>
+                <div class="list">
+                    <p><img src="images/partners7.png" style="width:.62rem"></p>
+                </div>
+            </li>
+            <li>
+                <div class="tit"><i><img src="images/icon-partner4.png"></i>Service provider</div>
+                <div class="list">
+                    <p><img src="images/partners8.png" style="width:.62rem"></p>
+                    <p><img src="images/partners9.png" style="width:1.21rem"></p>
+                    <p><img src="images/partners10.png" style="width:1.62rem"></p>
+                    <p><img src="images/partners11.png" style="width:.86rem"></p>
+                    <p><img src="images/partners12.png" style="width:1.3rem"></p>
+                    <p><img src="images/partners13.png" style="width:.88rem"></p>
+                    <p><img src="images/partners14.png" style="width:.75rem"></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</script>
+
+<script id="mainEmailTmpl" type="text/html">
+    <div class="email" id="email">
+        <h4>
+            <%=data.tit%>
+        </h4>
+        <p>
+            <%=data.des%>
+        </p>
+        <div class="em-form">
+            <input id="emailTxt"type="text" placeholder="<%=data.inputTxt%>" />
+            <a id="emailBtn">
+                <%=data.btnTxt%>
+            </a>
+        </div>
+    </div>
+</script>

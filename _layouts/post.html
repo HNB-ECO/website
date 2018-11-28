@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="post">
+  <!-- <div class="post-nav">
+    {% if page.next.url %}
+      <a class="nav-item" href="{{ page.next.url | prepend: site.baseurl }}">&laquo; Prev</a>
+    {% endif %}
+    {% if page.previous.url %}
+      <a class="nav-item" href="{{ page.previous.url | prepend: site.baseurl }}">Next &raquo;</a>
+    {% endif %}
+  </div> -->
+
+  <div class="detail-main">
+      <h5 class="tit">{{ page.title }}</h5>
+      <div class="time">{{ page.date | date_to_string  }}</div>
+      <article class="detail-con">
+          {{ content }}
+      </article>
+  </div>
+
+</div>

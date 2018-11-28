@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<div class="main">
+        <div class="box">
+            <section class="content">
+                <h2>FAQs</h2>
+            </section>
+            <div class="faq" id="faq"></div>
+        </div>
+    </div>
+
+<script id="faqTmpl" type="text/html">
+    <ul class="left">
+        <% for(var i=0; i<data.nav.length; i++){ %>
+            <li><%=data.nav[i]%></li>
+        <% } %>
+    </ul>
+    <div class="right">
+        <ul>
+            <% for(var i=0; i<data.column.column1.length; i++){ %>
+            <li>
+                <h5 class="questions"><span>Q<%= i + 1 %></span><%=data.column.column1[i].questions%></h5>
+                <div>
+                    <span>A</span>
+                    <h6><%=data.column.column1[i].questions%></h6>
+                    <%=data.column.column1[i].answers%>
+                </div>
+            </li>
+            <% } %>
+            
+        </ul>
+        <ul>
+            <% for(var i=0; i<data.column.column2.length; i++){ %>
+                <li>
+                    <h5 class="questions"><span>Q<%= i + 1 %></span><%=data.column.column2[i].questions%></h5>
+                    <div>
+                        <span>A</span>
+                        <h6><%=data.column.column2[i].questions%></h6>
+                        <%=data.column.column2[i].answers%>
+                    </div>
+                </li>
+            <% } %>
+        </ul>
+        <ul>
+            <% for(var i=0; i<data.column.column3.length; i++){ %>
+                <li>
+                    <h5 class="questions"><span>Q<%= i + 1 %></span><%=data.column.column3[i].questions%></h5>
+                    <div>
+                        <span>A</span>
+                        <h6><%=data.column.column3[i].questions%></h6>
+                        <%=data.column.column3[i].answers%>
+                    </div>
+                </li>
+            <% } %>
+        </ul>
+        <ul>
+            <% for(var i=0; i<data.column.column4.length; i++){ %>
+                <li>
+                    <h5 class="questions"><span>Q<%= i + 1 %></span><%=data.column.column4[i].questions%></h5>
+                    <div>
+                        <span>A</span>
+                        <h6><%=data.column.column4[i].questions%></h6>
+                        <%=data.column.column4[i].answers%>
+                    </div>
+                </li>
+            <% } %>
+        </ul>
+        <ul>
+            <% for(var i=0; i<data.column.column5.length; i++){ %>
+                <li>
+                    <h5 class="questions"><span>Q<%= i + 1 %></span><%=data.column.column5[i].questions%></h5>
+                    <div>
+                        <span>A</span>
+                        <h6><%=data.column.column5[i].questions%></h6>
+                        <%=data.column.column5[i].answers%>
+                    </div>
+                </li>
+            <% } %>
+        </ul>
+    </div>
+</script>
