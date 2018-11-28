@@ -41,12 +41,18 @@ $(function() {
     })
 
     $(".main").on("click","#emailBtn",function(){
-        $.ajax({
-            url: "http://47.96.103.39:9380/app-rest/saveEmailAddress?mail="+$("#emailTxt").val(),
-            type: 'get',
-            dataType: 'jsonp',
-            success: function (result) {
-            }
-        });
+        if(!$("#emailTxt").val()){
+            alert("Please input your e-mail");
+        } else {
+            $.ajax({
+                url: "https://hgs.eco/app-rest/saveEmailAddress?mail="+$("#emailTxt").val(),
+                type: 'get',
+                success: function (result) {
+                    if(result.flag) {
+                        alert("You have been successfully subscribed.");
+                    }
+                }
+            });
+        }
     })
 })

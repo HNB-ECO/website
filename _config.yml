@@ -3,7 +3,7 @@ title: HNB
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   The HNB Foundation is endorsed by an international network, compiled of a wealth of experience in IT, entrepreneurship, business processes, trading, property and asset development, international management and academia
-baseurl: "/urban-theme" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hnb.eco/" # the base hostname & protocol for your site
 twitter_username: HNB_ECO
 github_username:  hnb-ECO
