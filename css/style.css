@@ -674,7 +674,7 @@ h1.title p {
 }
 
 .item9 .news h5 {
-    padding-bottom: .25rem;
+    margin-bottom: .25rem;
     font: .36rem/.46rem 'NeoSansIntel';
 }
 
@@ -690,11 +690,26 @@ h1.title p {
     line-height: .32rem;
     color: #959595;
     margin-bottom: .58rem;
+}
+
+.item9 li.news p {
     height: .96rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.item9 li.news h5 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font: .24rem/.36rem 'NeoSansIntel';
+    height: .72rem;
     overflow: hidden;
 }
 
-.item9 .news a {
+.item9 section .news a {
     color: #008FE9;
     padding-left: .1rem
 }

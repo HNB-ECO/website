@@ -47,6 +47,7 @@ $(function() {
             $.ajax({
                 url: "https://hgs.eco/app-rest/saveEmailAddress?mail="+$("#emailTxt").val(),
                 type: 'get',
+                dataType:"jsonp",
                 success: function (result) {
                     if(result.flag) {
                         alert("You have been successfully subscribed.");
