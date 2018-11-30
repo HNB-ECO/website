@@ -67,79 +67,69 @@
 
     <div class="item1 box" id="features">
         <section class="content">
-            <h2>What is HNB?</h2>
-            <p>HNB is building a decentralized blockchain network where individuals and enterprises can exchange products and services with trust and security. The dual-token system of HNB and HGS, combined with the hybrid consensus algorithm of DPOS and Algorand provides the infrastructure for a stable and robust ecosystem.</p>
+            <h2><%=data.item1.title%></h2>
+            <p><%=data.item1.des%></p>
         </section>
         <ul>
             <li>
                 <div class="img"><img src="images/Group 77@2x.png"></div>
-                <h5>Dual-token structure</h5>
-                <p>The HNB token represents ownership of the HNB economic entity, while the HGS token is a stable payment medium.</p>
+                <h5><%=data.item1.list[0].title%></h5>
+                <p><%=data.item1.list[0].des%></p>
             </li>
             <li>
                 <div class="img"><img src="images/Group 79@2x.png"></div>
-                <h5>Hybrid consensus algorithm</h5>
-                <p>High security and high efficiency are achieved by combining DPOS and Algorand.</p>
+                <h5><%=data.item1.list[1].title%></h5>
+                <p><%=data.item1.list[1].des%></p>
             </li>
             <li>
                 <div class="img"><img src="images/Group 82@2x.png"></div>
-                <h5>Instant payments</h5>
-                <p>Instant transactions with no fees.</p>
+                <h5><%=data.item1.list[2].title%></h5>
+                <p><%=data.item1.list[2].des%></p>
             </li>
             <li>
                 <div class="img"><img src="images/Group 84@2x.png"></div>
-                <h5>Algorithmic Bank</h5>
-                <p>HGS token issuance fluctuates based on the scale and liquidity of the decentralized economy.</p>
+                <h5><%=data.item1.list[3].title%></h5>
+                <p><%=data.item1.list[3].des%></p>
             </li>
             <li>
                 <div class="img"><img src="images/Group 87@2x.png"></div>
-                <h5>Multi-sidechain structure</h5>
-                <p>Enterprises can integrate their own sidechains to allow for issuance of new digital assets interchangeable with the HNB main chain.</p>
+                <h5><%=data.item1.list[4].title%></h5>
+                <p><%=data.item1.list[4].des%></p>
             </li>
             <li>
                 <div class="img"><img src="images/Group 91@2x.png"></div>
-                <h5>Lightweight SDK access</h5>
-                <p>Ultra-lightweight merchant SDK access, allowing merchants to turn their product into a DApp within one day.</p>
+                <h5><%=data.item1.list[5].title%></h5>
+                <p><%=data.item1.list[5].des%></p>
             </li>
         </ul>
     </div>
 
     <div class="item2">
         <div>
-            <p>300,000</p>Users</div>
+            <p>300,000</p><%=data.item2[0]%></div>
         <div>
-            <p>10,000</p>Enterprises</div>
+            <p>10,000</p><%=data.item2[1]%></div>
         <div>
-            <p>10+</p>Countries</div>
+            <p>10+</p><%=data.item2[2]%></div>
     </div>
 
     <div class="item3 box" id="ecosystem">
         <section class="content">
-            <h2>The HNB Ecosystem</h2>
-            <p>HNB is connecting the global economy with the decentralized digital economy.</p>
+            <h2><%=data.item3.title%></h2>
+            <p><%=data.item3.des%></p>
         </section>
         <div class="system">
             <div class="left"><img src="images/Group 34@2x.png"></div>
             <div class="right">
                 <ul>
-                    <li class="icon-sys1">
-                        <h5>E-Commerce Ecosystem</h5>
-                        <p>Explore the possibilities of retail and trade in a trusted environment</p>
-                    </li>
-                    <li class="icon-sys2">
-                        <h5>Built-in Token Exchange</h5>
-                        <p>Safely exchange tokens within your wallet through our decentralized order books</p>
-                    </li>
-                    <li class="icon-sys3">
-                        <h5>DApp Community</h5>
-                        <p>Seamlessly build and integrate your own business with the decentralized digital economy</p>
-                    </li>
-                    <li class="icon-sys4">
-                        <h5>Multi-Chain Asset Wallet</h5>
-                        <p>Store your digitals assets in a highly secure mobile wallet</p>
-                    </li>
+                    <% for(var i=0; i<data.item3.list.length; i++){ %>
+                        <li class="icon-sys<%= i + 1 %>">
+                            <h5><%=data.item3.list[i].title%></h5>
+                            <p><%=data.item3.list[i].des%></p>
+                        </li>
+                    <% } %>
                 </ul>
-                <a href="https://www.pgyer.com/W11h" target="_blank" class="download-btn">Download the wallet</a>
+                <a href="https://www.pgyer.com/W11h" target="_blank" class="download-btn"><%=data.item3.btnTxt%></a>
                 <p class="code"><img src="images/code.png"></p>
             </div>
         </div>
@@ -147,52 +137,61 @@
 
     <div class="item4 box" id="roadmap">
         <section class="content">
-            <h2>Roadmap</h2>
+            <h2><%=data.item4.title%></h2>
         </section>
         <ul>
             <li>
                 <div class="txt">
-                <h5>RESEARCH</h5>Initial project investment and intensive research on decentralized applications and blockchain technology</div>
+                    <h5><%=data.item4.list[0].title%></h5><%=data.item4.list[0].des%>
+                </div>
                 <p class="border1 blue"><span><i></i></span>Q1 2017</p>
             </li>
             <li>
                 <div class="txt">
-                <h5>TEAM FORMATION</h5>Core team established in Shanghai and Canada</div>
+                    <h5><%=data.item4.list[1].title%></h5><%=data.item4.list[1].des%>
+                </div>
                 <p class="border1 blue"><span><i></i></span>Q4 2017</p>
             </li>
             <li>
                 <div class="txt">
-                <h5>BLUEPRINT</h5>Decentralized economic model and technical solution design</div>
+                    <h5><%=data.item4.list[2].title%></h5><%=data.item4.list[2].des%>
+                </div>
                 <p class="border1-left blue"><span><i></i></span>Q1 2018</p>
             </li>
             <li>
                 <div class="txt">
-                <h5>CONSOLIDATION</h5>HNB/HGS ERC-20 based wallet launched</div>
+                    <h5><%=data.item4.list[3].title%></h5><%=data.item4.list[3].des%>
+                </div>
                 <p class="border2-left yello"><span><i></i></span>Q4 2018</p>
             </li>
             <li>
                 <div class="txt">
-                <h5>PROMOTION</h5>DApp SDK and underlying ERC20-based architecture development</div>
+                    <h5><%=data.item4.list[4].title%></h5><%=data.item4.list[4].des%>
+                </div>
                 <p class="border2 yello"><span><i></i></span>Q3 2018</p>
             </li>
             <li>
-                <div class="border2-right txt">
-                <h5>VERIDICATION</h5>POC launch, and verification of the HNB economic model</div>
+                <div class="txt border2-right">
+                    <h5><%=data.item4.list[5].title%></h5><%=data.item4.list[5].des%>
+                </div>
                 <p class="blue colorB"><em></em><span><i></i></span>Q2 2018</p>
             </li>
             <li>
-                <div class="border3-left txt">
-                <h5>MAINNET 1.0 LAUNCH</h5>Launch two public chains for the dual-token model HNB and HGS</div>
+                <div class="txt border3-left">
+                    <h5><%=data.item4.list[6].title%></h5><%=data.item4.list[6].des%>
+                </div>
                 <p class="yello"><span><i></i></span>Q2 2019</p>
             </li>
             <li>
                 <div class="txt">
-                <h5>MAINNET UPGRADE</h5>Improve chain performance and achieve faster payments</div>
+                    <h5><%=data.item4.list[7].title%></h5><%=data.item4.list[7].des%>
+                </div>
                 <p class="border3 yello"><span><i></i></span>Q3 2019</p>
             </li>
             <li>
                 <div class="txt">
-                <h5>MAINNET 2.0 LAUNCH</h5>Support sidechain and cross-chain communication. Support merchants to publish digital assets</div>
+                    <h5><%=data.item4.list[8].title%></h5><%=data.item4.list[8].des%>
+                </div>
                 <p class="border3 yello"><span><i></i></span>Q4 2019</p>
             </li>
         </ul>
@@ -200,72 +199,72 @@
 
     <div class="item5 box" id="team">
         <section class="content">
-            <h2>Leadership Team</h2>
+            <h2><%=data.item5.title%></h2>
         </section>
         <ul>
             <li>
                 <div class="positive">
                     <div class="img"><img src="images/Image 8 Copy 2@2x.png"></div>
-                    <div class="name">Ken Lee</div>
-                    <div class="tit">CEO/Co-Founder</div>
+                    <div class="name"><%=data.item5.list[0].name%></div>
+                    <div class="tit"><%=data.item5.list[0].tit%></div>
                     <a class="link-in" target="_blank" href="https://www.linkedin.com/in/ken-lee-2332462a/"></a>
                 </div>
                 <div class="negative">
-                    <div class="name">Ken Lee</div>
-                    <div class="tit">CEO/Co-Founder</div>
-                    <div class="info">Ken has over 20 years working experience in the IT and investment fields, and co-founded three investment funds. He co-founded the HNB project in 2017.</div>
+                    <div class="name"><%=data.item5.list[0].name%></div>
+                    <div class="tit"><%=data.item5.list[0].tit%></div>
+                    <div class="info"><%=data.item5.list[0].des%></div>
                 </div>
             </li>
             <li>
                 <div class="positive">
                     <div class="img"><img src="images/Image 1 Copy@2x.png"></div>
-                    <div class="name">Alan Wu</div>
-                    <div class="tit">COO/Co-Founder</div>
+                    <div class="name"><%=data.item5.list[1].name%></div>
+                    <div class="tit"><%=data.item5.list[1].tit%></div>
                     <a class="link-in" target="_blank" href="https://www.linkedin.com/in/aladwu/"></a>
                 </div>
                 <div class="negative">
-                    <div class="name">Alan Wu</div>
-                    <div class="tit">COO/Co-Founder</div>
-                    <div class="info">Alan graduated from Fudan University, with a Master in Computer Science. He has served as the Lead Enterprise Architect of Hewlett-Packard and HPE Canada for over 9 years. He co-founded the HNB project in 2017.</div>
+                    <div class="name"><%=data.item5.list[1].name%></div>
+                    <div class="tit"><%=data.item5.list[1].tit%></div>
+                    <div class="info"><%=data.item5.list[1].des%></div>
                 </div>
             </li>
             <li>
                 <div class="positive">
                     <div class="img"><img src="images/Image 1 Copy 2@2x.png"></div>
-                    <div class="name">Mark Treleaven</div>
-                    <div class="tit">CSO/Co-Founder</div>
+                    <div class="name"><%=data.item5.list[2].name%></div>
+                    <div class="tit"><%=data.item5.list[2].tit%></div>
                     <a class="link-in" target="_blank" href="https://www.linkedin.com/in/mark-treleaven-364225/"></a>
                 </div>
                 <div class="negative">
-                    <div class="name">Mark Treleaven</div>
-                    <div class="tit">CSO/Co-Founder</div>
-                    <div class="info">Mark has over 15 years of experience in executive and strategic leadership positions, including Director of PWC Canada and McKinsey consultant. Mark completed a Master Degree in Computer Science at York University.</div>
+                    <div class="name"><%=data.item5.list[2].name%></div>
+                    <div class="tit"><%=data.item5.list[2].tit%></div>
+                    <div class="info"><%=data.item5.list[2].des%></div>
                 </div>
             </li>
             <li>
                 <div class="positive">
                     <div class="img"><img src="images/Image 1 Copy 3@2x.png"></div>
-                    <div class="name">Joe Lee</div>
-                    <div class="tit">CMO</div>
+                    <div class="name"><%=data.item5.list[3].name%></div>
+                    <div class="tit"><%=data.item5.list[3].tit%></div>
                     <a class="link-in" target="_blank" href="https://www.linkedin.com/in/yizhou-li-507140168/?trk=profile_share_wechat"></a>
                 </div>
                 <div class="negative">
-                    <div class="name">Joe Lee</div>
-                    <div class="tit">CMO</div>
-                    <div class="info">Joe was the Founder and CEO of Thinskey, and has over 10 years working experience in multinational enterprises. He completed his Ph.D. at Tsinghua University.</div>
+                    <div class="name"><%=data.item5.list[3].name%></div>
+                    <div class="tit"><%=data.item5.list[3].tit%></div>
+                    <div class="info"><%=data.item5.list[3].des%></div>
                 </div>
             </li>
             <li>
                 <div class="positive">
                     <div class="img"><img src="images/Image 1 Copy 4@2x.png"></div>
-                    <div class="name">Tony Chang</div>
-                    <div class="tit">CTO</div>
+                    <div class="name"><%=data.item5.list[4].name%></div>
+                    <div class="tit"><%=data.item5.list[4].tit%></div>
                     <a class="link-in" target="_blank" href="https://www.linkedin.com/in/zhang-tony-8a0266168/"></a>
                 </div>
                 <div class="negative">
-                    <div class="name">Tony Chang</div>
-                    <div class="tit">CTO</div>
-                    <div class="info">Tony has worked for Dupont, Gemalto, and BASF as an IT Director for more than 20 years. He joined HNB in 2017 as the leader of Blockchain governance design and Chief Technology Officer.</div>
+                    <div class="name"><%=data.item5.list[4].name%></div>
+                    <div class="tit"><%=data.item5.list[4].tit%></div>
+                    <div class="info"><%=data.item5.list[4].des%></div>
                 </div>
             </li>
         </ul>
@@ -273,7 +272,7 @@
 
     <div class="item6 box" id="advisors">
         <section class="content">
-            <h2>Advisors</h2>
+            <h2><%=data.item6.title%></h2>
         </section>
         <ul>
             <li>
@@ -323,7 +322,7 @@
 
     <div class="item7 box">
         <section class="content">
-            <h2>Strategic partners</h2>
+            <h2><%=data.item7.title%></h2>
         </section>
         <ul>
             <li>
@@ -371,7 +370,7 @@
 
     <div class="item8 box">
         <section class="content">
-            <h2>Partners</h2>
+            <h2><%=data.item8.title%></h2>
         </section>
         <ul>
             <li>
@@ -380,29 +379,29 @@
                     <div class="partner-box">
                         <img src="images/partners1.png" style="width:.62rem">
                         <div class="info">
-                            <h5>Beautalk</h5>
-                            <p>Beautalk is a B2C e-commerce platform for imported cosmetics. In order to guarantee high product quality, Beautalk only sells product directly from the manufacturer, and in doing so, ensures product authenticity, enables consumers to have a positive experience with brands and gain their trust. </p>
+                            <h5><%=data.item8.list[0].title%></h5>
+                            <p><%=data.item8.list[0].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners2.png" style="width:1.22rem">
                         <div class="info">
-                            <h5>Gaia Tablescapes</h5>
-                            <p>Gaia Tablescapes is an international home and lifestyle brand from the United States. At the heart of Gaia Tablescapes, the focus is on tableware, kitchen utensils and home accessories. Gaia Tablescapes aims to reflect a refined and comfortable lifestyle by creating products for both the interior and exterior of restaurants, kitchens and living rooms. </p>
+                            <h5><%=data.item8.list[1].title%></h5>
+                            <p><%=data.item8.list[1].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners3.png" style="width:.85rem">
                         <div class="info">
-                            <h5>Honey</h5>
-                            <p>Honey is the largest hand-painted IP platform with more than 100,000 artists and 30 million users. Honey has launched a KOL fan realization tool to help run its own painting business and sell peripheral products. Currently, the HGS token has been implemented as the payment medium payment to allow users to pay for KOL services. Furthermore, Honey is lacking an effective copyright protection system, so by integrating into the HNB community, Honey’s IP would be protected and costs would be reduced. </p>
+                            <h5><%=data.item8.list[2].title%></h5>
+                            <p><%=data.item8.list[2].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners4.png" style="width:.71rem">
                         <div class="info">
-                            <h5>Uncle Bull</h5>
-                            <p>Uncle Bull is an e-commerce company selling organic food and has over 1,000 vendors, 2,000 supermarket and 400,000 members. The HGS payment solution has been integrated into the Uncle Bull platform. Consumers can directly purchase products from Tmall, Taobao, Jingdong, Pinduoduo, Vipshop and obtain HGS cashback. </p>
+                            <h5><%=data.item8.list[3].title%></h5>
+                            <p><%=data.item8.list[3].des%></p>
                         </div>
                     </div>
                 </div>
@@ -413,15 +412,15 @@
                     <div class="partner-box">
                         <img src="images/partners5.png" style="width:.71rem">
                         <div class="info">
-                            <h5>XSleep</h5>
-                            <p>XSleep specializes in health and sleep data research. The new generation XSleep smart mattress and healthy sleep system uses data driven artificial intelligence technology. It accurately collects the user's location and reads the data, evaluates the conditions of the user's healthy sleep environment, makes adjustments and adaptations according to the user's personalized data. XSleep provides a data driven smart sleep system that is truly tailored to the individual. </p>
+                            <h5><%=data.item8.list[4].title%></h5>
+                            <p><%=data.item8.list[4].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners6.png" style="width:1.25rem">
                         <div class="info">
-                            <h5>EThome</h5>
-                            <p>EThome specializes in the design and development of the Internet of Things. It is also a Big Data cloud service platform, with an intelligent control platform for home appliances. Its main products include a combination of security surveillance, lighting and electrical control, intelligent environment monitoring and audio-visual entertainment. </p>
+                            <h5><%=data.item8.list[5].title%></h5>
+                            <p><%=data.item8.list[5].des%></p>
                         </div>
                     </div>
                 </div>
@@ -432,8 +431,8 @@
                     <div class="partner-box">
                         <img src="images/partners7.png" style="width:.62rem">
                         <div class="info right">
-                            <h5>Pet Show</h5>
-                            <p>Pet Show has created a social network where users interact and socialise through the sharing of their pet pictures. </p>
+                            <h5><%=data.item8.list[6].title%></h5>
+                            <p><%=data.item8.list[6].des%></p>
                         </div>
                     </div>
                 </div>
@@ -444,50 +443,50 @@
                     <div class="partner-box">
                         <img src="images/partners8.png" style="width:.62rem">
                         <div class="info">
-                            <h5>Shan Dian Shua Xin</h5>
-                            <p>Shan Dian Shua Xin is a service platform for renovations. It provides services such as wall repainting and bathroom and kitchen renovations. With their Internet-based EPG management system, standardized renovation and transformation modules, and dedicated service to homeowners; Shan Dian Shua Xin has revolutionized the home decoration industry. The platform offers a seamless renovation experience and in doing so, has set higher standards of satisfaction for decoration service providers. </p>
+                            <h5><%=data.item8.list[7].title%></h5>
+                            <p><%=data.item8.list[7].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners9.png" style="width:1.21rem">
                         <div class="info">
-                            <h5>Lou Xiao Yi</h5>
-                            <p>Lou Xiao Yi is a specialized post office operator for corporate office buildings. It solves issues with courier delivery by integrating online and offline systems. Lou Xiao Yi is currently providing services to large enterprises such as BAIC Group, Datang Mobile, Netease and the Industrial and Commercial Bank of China. It also provides services to elite enterprises in mid-to-high end office buildings such as Delta Center, Penglong Building, Zhengdong Building and Wangfu Building. </p>
+                            <h5><%=data.item8.list[8].title%></h5>
+                            <p><%=data.item8.list[8].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners10.png" style="width:1.62rem">
                         <div class="info">
-                            <h5>5ichong</h5>
-                            <p>5ichong provides an all-in-one platform for veterinary services and products. The platform includes financial services that allows for installment payments, B2B procurement platform, SAAS veterinary hospital smart management system, online veterinary diagnosis platforma and a veterinary institution. There are over 2 million pet owners registered with 5ichong, its operation covers more than 200 cities, services more than 10,000 veterinary clinics and over 20,000 veterinary professionals. </p>
+                            <h5><%=data.item8.list[9].title%></h5>
+                            <p><%=data.item8.list[9].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners11.png" style="width:.86rem">
                         <div class="info">
-                            <h5>MCreativeCentre</h5>
-                            <p>MCreativeCentre is a Shanghai-based entertainment company that is cultivating a new generation of artists in the global landscape. MCreativeCentre also produces world-class music productions. </p>
+                            <h5><%=data.item8.list[10].title%></h5>
+                            <p><%=data.item8.list[10].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners12.png" style="width:1.3rem">
                         <div class="info">
-                            <h5>LingGongLi</h5>
-                            <p>LingGongLi provides an improved courier delivery experience for office workers, more efficient express delivery management tools for enterprises, resulting in a reduction of costs and increased efficiency for express delivery outlets. LingGongLi has covered more than 100 office buildings to date, serving nearly one million people. It is now present in more than 100 well-known buildings such as Shanghai Center, Jinmao Tower, Citigroup Building, Bank of East Asia Building, China Customs Building and Meiluo Building. </p>
+                            <h5><%=data.item8.list[11].title%></h5>
+                            <p><%=data.item8.list[11].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners13.png" style="width:.88rem">
                         <div class="info right">
-                            <h5>Thinkskey</h5>
-                            <p>Thinkskey develops smart home solutions with industrial design as its core. Founded in Tsinghua Science and Technology Park by Li YiZhou, the company has gone from initially offering industrial design and innovative design consulting services, to manufacturing hardware and circuit boards, and developing software, to finally a smart home integrated solution provider with R&D and cloud algorithms. </p>
+                            <h5><%=data.item8.list[12].title%></h5>
+                            <p><%=data.item8.list[12].des%></p>
                         </div>
                     </div>
                     <div class="partner-box">
                         <img src="images/partners14.png" style="width:.75rem">
                         <div class="info right">
-                            <h5>SymbolTek</h5>
-                            <p>SymbolTek is a provider of video surveillance products and solutions, the company's main products include SVAC chips, modules, cameras and an intelligent video surveillance and analysis platform. SymbolTek possesses advanced audio and video codec algorithm chip design, a great amount of experience with product development and solution integration, and its products are widely used in areas such as smart cities, safe campuses and smart transportation. </p>
+                            <h5><%=data.item8.list[13].title%></h5>
+                            <p><%=data.item8.list[13].des%></p>
                         </div>
                     </div>
                 </div>
@@ -512,3 +511,9 @@
         </div>
     </div>
 </script>
+
+<style>
+.head-nav .language {
+    display: block;
+}
+</style>

@@ -118,6 +118,42 @@ a:focus {
     box-shadow: .01rem .1rem .42rem .1rem rgba(87, 132, 253, 0.28);
     border-radius: .4rem;
 }
+.head-nav .language {
+    display: none;
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+    width: 1.14rem;
+    height: .37rem;
+    line-height: .37rem;
+    text-align: center;
+    margin: .3rem .2rem;
+    border-radius: .4rem;
+    border:1px solid #0E1F3B;
+}
+.head-nav .language p {
+    height: 100%;
+    cursor: pointer;
+}
+.head-nav .language i{
+    display: inline-block;
+    width: .15rem;
+    height: 100%;
+    margin-left: .1rem;
+    vertical-align: top;
+    background: url("../images/arrow_down.png") 0 center no-repeat;
+    background-size: 100% auto;
+}
+.head-nav .language ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: .4rem;
+    width: 100%;
+    background:#fff;
+    cursor: pointer;
+    box-shadow:0px 2px 4px 0px rgba(48,93,212,0.1);
+}
 
 .icon-join {
     display: inline-block;

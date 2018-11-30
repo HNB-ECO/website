@@ -10,13 +10,43 @@ $(function() {
     autoChange(1920, 100)
     $('#header').html(miniTpl($('#headerTmpl').html(), language.en.header));
     if($('#mainBoxTmpl').html() && $('#mainBox')){
-        $('#mainBox').html(miniTpl($('#mainBoxTmpl').html(), language.en.main));
+        var lanT = sessionStorage.getItem('language') || 'en'
+        var lanTxt = lanT == 'en' ? 'EN' : lanT == 'ch' ?  '中文' : 'ES';
+        sessionStorage.setItem('language',lanT);
+        $(".language p span").text(lanTxt)
+        $('#mainBox').html(miniTpl($('#mainBoxTmpl').html(), language[lanT].main));
         $('#mainEmail').html(miniTpl($('#mainEmailTmpl').html(), language.en.email));
+
+        $(".item5 .positive img").hover(function(){
+            $(this).parents(".positive").hide().next(".negative").show()
+        })
+    
+        $(".negative").hover(function(){},function(){
+            $(this).hide().prev(".positive").show()
+        })
     }
+    $('.language p').click(function(){
+        $(this).parent().find("ul").slideToggle()
+    })
+    $(".language li").click(function(e){
+        $(".language p span").text($(this).attr('data-txt'))
+        $(this).parent().slideUp();
+        var lanT = $(this).attr('data-key')
+        sessionStorage.setItem('language',lanT);
+        $('#mainBox').html(miniTpl($('#mainBoxTmpl').html(), language[lanT].main));
+
+        $(".item5 .positive img").hover(function(){
+            $(this).parents(".positive").hide().next(".negative").show()
+        })
+    
+        $(".negative").hover(function(){},function(){
+            $(this).hide().prev(".positive").show()
+        })
+    })
+
     if($('#faqTmpl').html() && $('#faq')){
         $('#faq').html(miniTpl($('#faqTmpl').html(), language.en.faq));
     }
-    $('body').show();
     $('.faq').on("click",".questions",function(){
         var f_list=$(this).next("div");
         if(f_list.css("display") == "none"){
@@ -32,13 +62,7 @@ $(function() {
         $('.right ul').hide().eq(index).show();
     }) 
 
-    $(".item5 .positive img").hover(function(){
-        $(this).parents(".positive").hide().next(".negative").show()
-    })
-
-    $(".negative").hover(function(){},function(){
-        $(this).hide().prev(".positive").show()
-    })
+    $('body').show();
 
     $(".main").on("click","#emailBtn",function(){
         if(!$("#emailTxt").val()){
