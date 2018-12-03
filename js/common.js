@@ -10,7 +10,13 @@ $(function() {
     autoChange(1920, 100)
     $('#header').html(miniTpl($('#headerTmpl').html(), language.en.header));
     if($('#mainBoxTmpl').html() && $('#mainBox')){
-        var lanT = sessionStorage.getItem('language') || 'en'
+        var lang = (navigator.language || navigator.browserLanguage).toLowerCase().substr(0, 2);
+        if(lang == 'zh'){
+            lang = 'ch'
+        } else {
+            lang = 'en'
+        };
+        var lanT = sessionStorage.getItem('language') || lang
         var lanTxt = lanT == 'en' ? 'EN' : lanT == 'ch' ?  '中文' : 'ES';
         sessionStorage.setItem('language',lanT);
         $(".language p span").text(lanTxt)

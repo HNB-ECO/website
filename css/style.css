@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     background: #fff;
-    font-family: 'NeoSans';
+    font-family: 'NeoSans','方正兰亭黑体';
     font-size: .14rem;
     color: #0E1F3B;
     display: none;
@@ -190,7 +190,7 @@ h1.title {
 }
 
 h1.title p {
-    font: 1.2rem/1.5rem NeoSansIntel;
+    font: 1.2rem/1.5rem NeoSansIntel,'方正兰亭黑体';
 }
 
 .head-btn {
@@ -208,7 +208,7 @@ h1.title p {
 .head-btn a {
     flex: 1;
     padding: .15rem 0;
-    font: .24rem/.3rem 'NeoSansIntel';
+    font: .24rem/.3rem 'NeoSansIntel','方正兰亭黑体';
     text-align: center;
     color: #fff;
 }
@@ -241,7 +241,7 @@ h1.title p {
 
 .content h2 {
     padding: 1.6rem 0 .3rem;
-    font: .72rem/.92rem 'NeoSansIntel';
+    font: .72rem/.92rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .content p {
@@ -280,7 +280,7 @@ h1.title p {
 .item1 li h5 {
     padding: .3rem 0 .2rem;
     color: #0E1F3B;
-    font: .18rem/.24rem 'NeoSansIntel';
+    font: .18rem/.24rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item1 li p {
@@ -302,7 +302,7 @@ h1.title p {
 .item2 div {
     width: 6rem;
     color: #fff;
-    font: .24rem/.3rem 'NeoSansIntel';
+    font: .24rem/.3rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item2 div p {
@@ -358,7 +358,7 @@ h1.title p {
 
 .item3 .system h5 {
     padding-bottom: .4rem;
-    font: .3rem/.36rem 'NeoSansIntel';
+    font: .3rem/.36rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item3 .system p {
@@ -387,7 +387,7 @@ h1.title p {
     height: .7rem;
     margin-top: 1.1rem;
     color: #fff;
-    font: .3rem/.7rem 'NeoSansIntel';
+    font: .3rem/.7rem 'NeoSansIntel','方正兰亭黑体';
     text-align: center;
     background: linear-gradient(270deg, rgba(40, 79, 204, 1) 0%, rgba(89, 168, 255, 1) 100%);
     border-radius: .35rem;
@@ -408,7 +408,7 @@ h1.title p {
 .item4 li h5 {
     padding: 0 0 .16rem;
     color: #0E1F3B;
-    font: .20rem/.24rem 'NeoSansIntel';
+    font: .20rem/.24rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item4 li div.txt {
@@ -421,7 +421,7 @@ h1.title p {
 .item4 li p {
     position: relative;
     padding: .4rem 0 .8rem;
-    font: .18rem/.24rem 'NeoSansIntel';
+    font: .18rem/.24rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item4 li p span {
@@ -520,13 +520,13 @@ h1.title p {
 
 .item5 li .positive .name {
     padding: .1rem 0 .2rem;
-    font: .3rem/.34rem 'NeoSansIntel';
+    font: .3rem/.34rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item5 li .positive .tit {
     padding: 0 0 .1rem;
     color: #305DD4;
-    font: .2rem/.25rem 'NeoSansIntel';
+    font: .2rem/.25rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .box .link-in {
@@ -548,13 +548,13 @@ h1.title p {
 
 .item5 li .negative .name {
     padding: .32rem 0 .2rem;
-    font: .36rem/.45rem 'NeoSansIntel';
+    font: .36rem/.45rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item5 li .negative .tit {
     padding: 0 0 .3rem;
     color: #DEDEDE;
-    font: .2rem/.25rem 'NeoSansIntel';
+    font: .2rem/.25rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item5 li .negative .info {
@@ -596,13 +596,13 @@ h1.title p {
 
 .item6 li .positive .name {
     padding: .24rem 0 .1rem;
-    font: .3rem/.38rem 'NeoSansIntel';
+    font: .3rem/.38rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item6 li .positive .tit {
     padding: 0 0 .32rem;
     color: #305DD4;
-    font: .2rem/.25rem 'NeoSansIntel';
+    font: .2rem/.25rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item7 ul {
@@ -621,7 +621,7 @@ h1.title p {
 }
 
 .item7 ul li p {
-    font: .18rem/.24rem 'NeoSansIntel';
+    font: .18rem/.24rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item8 ul {
@@ -643,7 +643,7 @@ h1.title p {
     position: relative;
     padding: 0 0 .4rem 1rem;
     height: .8rem;
-    font: .36rem/.8rem 'NeoSansIntel';
+    font: .36rem/.8rem 'NeoSansIntel','方正兰亭黑体';
 }
 
 .item8 li .tit i {
@@ -704,7 +704,7 @@ h1.title p {
 }
 
 .partner-box .info h5{
-    font: .36rem/.46rem 'NeoSansIntel';
+    font: .36rem/.46rem 'NeoSansIntel','方正兰亭黑体';
     padding-bottom: .3rem
 }
 .partner-box .info p{
