@@ -5,31 +5,31 @@ const language = {
             nav: [
                 {
                     name: "Features",
-                    url: "index.html#features"
+                    url: "/#features"
                 },
                 {
                     name: "Ecosystem",
-                    url: "index.html#ecosystem"
+                    url: "/#ecosystem"
                 },
                 {
                     name: "Roadmap",
-                    url: "index.html#roadmap"
+                    url: "/#roadmap"
                 },
                 {
                     name: "Team",
-                    url: "index.html#team"
+                    url: "/#team"
                 },
                 {
                     name: "Advisors",
-                    url: "index.html#advisors"
+                    url: "/#advisors"
                 },
                 {
                     name: "Newsroom",
-                    url: "newsroom/"
+                    url: "/newsroom"
                 },
                 {
                     name: "FAQ",
-                    url: "faq/"
+                    url: "/faq"
                 },
             ],
             btnTxt: "Join the discussion"
@@ -391,7 +391,41 @@ const language = {
             }
         }
     },
-    ch: {
+    cn: {
+        header: {
+            top: "The HNB wallet has gone live now. Download and earn your first 30 HGS （write Invitation code  79OLBE）",
+            nav: [
+                {
+                    name: "Features",
+                    url: "/cn#features"
+                },
+                {
+                    name: "Ecosystem",
+                    url: "/cn#ecosystem"
+                },
+                {
+                    name: "Roadmap",
+                    url: "/cn#roadmap"
+                },
+                {
+                    name: "Team",
+                    url: "/cn#team"
+                },
+                {
+                    name: "Advisors",
+                    url: "/cn#advisors"
+                },
+                {
+                    name: "Newsroom",
+                    url: "newsroom/?/cn"
+                },
+                {
+                    name: "FAQ",
+                    url: "faq/?/cn"
+                },
+            ],
+            btnTxt: "Join the discussion"
+        },
         main: {
             top: {
                 title: "HashNet BitEco",
@@ -596,7 +630,41 @@ const language = {
             } 
         },
     },
-    es: {
+    sp: {
+        header: {
+            top: "The HNB wallet has gone live now. Download and earn your first 30 HGS （write Invitation code  79OLBE）",
+            nav: [
+                {
+                    name: "Features",
+                    url: "/sp#features"
+                },
+                {
+                    name: "Ecosystem",
+                    url: "/sp#ecosystem"
+                },
+                {
+                    name: "Roadmap",
+                    url: "/sp#roadmap"
+                },
+                {
+                    name: "Team",
+                    url: "/sp#team"
+                },
+                {
+                    name: "Advisors",
+                    url: "/sp#advisors"
+                },
+                {
+                    name: "Newsroom",
+                    url: "/newsroom?/sp"
+                },
+                {
+                    name: "FAQ",
+                    url: "/faq?/sp"
+                },
+            ],
+            btnTxt: "Join the discussion"
+        },
         main: {
             top: {
                 title: "HashNet BitEco",

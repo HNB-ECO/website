@@ -16,13 +16,13 @@
             <a href="https://www.pgyer.com/W11h"><%=data.top%></a>
         </div>
         <div class="head-nav box">
-            <a href="{{ site.baseurl }}/index.html"><div class="logo"><img src="{{ site.baseurl }}/images/logo.png"></div></a>
+            <a href="{{ site.baseurl }}"><div class="logo"><img src="{{ site.baseurl }}/images/logo.png"></div></a>
             <div class="language">
                 <p><span>EN</span><i></i></p>
                 <ul>
-                    <li data-txt="EN" data-key="en">English</li>
-                    <li data-txt="中文" data-key="ch">中文</li>
-                    <li data-txt="ES" data-key="es">Español</li>
+                    <li><a href="{{ site.baseurl }}">English</a></li>
+                    <li><a href="{{ site.baseurl }}/cn">中文</a></li>
+                    <li><a href="{{ site.baseurl }}/sp">Español</a></li>
                 </ul>
             </div>
             <a href="https://t.me/HNB_ECO" target="_blank" class="join">
@@ -30,7 +30,7 @@
             <ul class="nav">
                 <% for(var i=0; i<data.nav.length; i++){ %>
                     <li>
-                        <a href="{{ site.baseurl }}/<%=data.nav[i].url%>">
+                        <a href="{{ site.baseurl }}<%=data.nav[i].url%>">
                             <%=data.nav[i].name%>
                         </a>
                     </li>
