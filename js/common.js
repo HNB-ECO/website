@@ -20,22 +20,29 @@ $(function() {
             sessionStorage.setItem('language','en')
         }
     }
-    
-    if(window.location.href.indexOf('/cn') != -1){
+    let lan = sessionStorage.getItem('language'),
+        cn = window.location.href.indexOf('/cn') != -1,
+        sp = window.location.href.indexOf('/sp') != -1,
+        en = window.location.href.indexOf('/en') != -1
+
+    if(cn || (lan == 'cn' && !sp && !en)){
+        sessionStorage.setItem('language','cn')
         $('#header').html(miniTpl($('#headerTmpl').html(), language.cn.header));
         if($('#mainBoxTmpl').html() && $('#mainBox')){
             $(".language p span").text('中文')
             $('#mainBox').html(miniTpl($('#mainBoxTmpl').html(), language.cn.main));
-            $('#mainEmail').html(miniTpl($('#mainEmailTmpl').html(), language.en.email));
+            $('#mainEmail').html(miniTpl($('#mainEmailTmpl').html(), language.cn.email));
         }
-    } else if (window.location.href.indexOf('/sp') != -1) {
+    } else if (sp || (lan == 'sp' && !cn && !en)) {
+        sessionStorage.setItem('language','sp')
         $('#header').html(miniTpl($('#headerTmpl').html(), language.sp.header));
         if($('#mainBoxTmpl').html() && $('#mainBox')){
             $(".language p span").text('SP')
             $('#mainBox').html(miniTpl($('#mainBoxTmpl').html(), language.sp.main));
-            $('#mainEmail').html(miniTpl($('#mainEmailTmpl').html(), language.en.email));
+            $('#mainEmail').html(miniTpl($('#mainEmailTmpl').html(), language.sp.email));
         }
     } else {
+        sessionStorage.setItem('language','en')
         $('#header').html(miniTpl($('#headerTmpl').html(), language.en.header));
         if($('#mainBoxTmpl').html() && $('#mainBox')){
             $(".language p span").text('EN')

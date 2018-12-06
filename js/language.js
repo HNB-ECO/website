@@ -39,9 +39,9 @@ const language = {
                 title: "HashNet BitEco",
                 des: "Empowering global enterprises through a decentralized blockchain economy",
                 nav: {
-                    summary: "summary",
-                    whitepaper: "whitepaper",
-                    newsletter: "newsletter"
+                    summary: "Summary",
+                    whitepaper: "Whitepaper",
+                    newsletter: "Newsletter"
                 }
             },
             item1: {
@@ -173,10 +173,12 @@ const language = {
                 title: "Advisors"
             },
             item7: {
-                title: "Strategic partners"
+                title: "Strategic partners",
+                list: ["Probing Fund","BN Capital","Creative Fund","E-Fund","MyTech Fund","HongLian Capital","BetaCoin Fund","Skyline Capital","Atlas Capital","TimeLine"]
             },
             item8: {
                 title: "Partners",
+                class:["E-commerce","Data Analytics","Social Network","Service provider"],
                 list: [
                     {
                         title: "Beautalk",
@@ -235,7 +237,11 @@ const language = {
                         des: "SymbolTek is a provider of video surveillance products and solutions, the company's main products include SVAC chips, modules, cameras and an intelligent video surveillance and analysis platform. SymbolTek possesses advanced audio and video codec algorithm chip design, a great amount of experience with product development and solution integration, and its products are widely used in areas such as smart cities, safe campuses and smart transportation. "
                     }
                 ]
-            } 
+            },
+            item9: {
+                title: "Newsroom",
+                btnTxt: "All News"
+            }
         },
         email: {
             tit: "Be part of the journey",
@@ -393,38 +399,38 @@ const language = {
     },
     cn: {
         header: {
-            top: "The HNB wallet has gone live now. Download and earn your first 30 HGS （write Invitation code  79OLBE）",
+            top: "HNB 小钱包上线啦，下载下钱包获得 30 HGS （请写邀请码:79OLBE）",
             nav: [
                 {
-                    name: "Features",
+                    name: "特点",
                     url: "/cn#features"
                 },
                 {
-                    name: "Ecosystem",
+                    name: "生态系统",
                     url: "/cn#ecosystem"
                 },
                 {
-                    name: "Roadmap",
+                    name: "里程碑",
                     url: "/cn#roadmap"
                 },
                 {
-                    name: "Team",
+                    name: "团队",
                     url: "/cn#team"
                 },
                 {
-                    name: "Advisors",
+                    name: "项目顾问",
                     url: "/cn#advisors"
                 },
                 {
-                    name: "Newsroom",
-                    url: "newsroom/?/cn"
+                    name: "新闻",
+                    url: "/newsroom?/cn"
                 },
                 {
-                    name: "FAQ",
-                    url: "faq/?/cn"
+                    name: "问答",
+                    url: "/faq?/cn"
                 },
             ],
-            btnTxt: "Join the discussion"
+            btnTxt: "加入电报群"
         },
         main: {
             top: {
@@ -491,7 +497,7 @@ const language = {
                 btnTxt: "下载钱包"
             },
             item4: {
-                title: "规划历程",
+                title: "里程碑",
                 list: [
                     {
                         title: "调查",
@@ -562,13 +568,15 @@ const language = {
                 ]
             },
             item6: {
-                title: "顾问"
+                title: "项目顾问"
             },
             item7: {
-                title: "战略合作伙伴"
+                title: "战略合作伙伴",
+                list: ["探针天使","犇睿资本","创新马槽","E-Fund","麦腾创投","红链资本","BetaCoin Fund","天链资本","寰与资本","TimeLine"]
             },
             item8: {
                 title: "合作伙伴",
+                class:["电子商务","数据分析","社交平台","服务行业"],
                 list: [
                     {
                         title: "美会说",
@@ -627,35 +635,45 @@ const language = {
                         des: "北京欣博电子科技有限公司是视频监控产品和解决方案的提供商，国家安全防范监控数字视音频编解码技术标准（SVAC）的会员单位和SVAC2.0标准的编制单位。公司主要产品包括自有知识产权的SVAC芯片、模组、摄像机等产品和智能视频监控分析平台。欣博电子拥有丰富的音视频编解码算法芯片设计，产品研发和方案集成经验，产品广泛适用于智慧城市、平安校园和智慧交通等领域。"
                     }
                 ]
-            } 
+            },
+            item9: {
+                title: "新闻",
+                btnTxt: "更多新闻"
+            }
         },
+        email: {
+            tit: "加入到HNB 的旅程中",
+            des: "订阅HNB相关信息",
+            inputTxt: "您的邮箱地址",
+            btnTxt: "订阅"
+        }
     },
     sp: {
         header: {
-            top: "The HNB wallet has gone live now. Download and earn your first 30 HGS （write Invitation code  79OLBE）",
+            top: "Ahora la billetera HNB ha salido en vivo. Descarga y gana tus primeros 30 HGS (Escribe el código de invitación: 79OLBE）",
             nav: [
                 {
-                    name: "Features",
+                    name: "Características",
                     url: "/sp#features"
                 },
                 {
-                    name: "Ecosystem",
+                    name: "Ecosistema",
                     url: "/sp#ecosystem"
                 },
                 {
-                    name: "Roadmap",
+                    name: "Mapa",
                     url: "/sp#roadmap"
                 },
                 {
-                    name: "Team",
+                    name: "Equipo",
                     url: "/sp#team"
                 },
                 {
-                    name: "Advisors",
+                    name: "Asesores",
                     url: "/sp#advisors"
                 },
                 {
-                    name: "Newsroom",
+                    name: "Sala de prensa",
                     url: "/newsroom?/sp"
                 },
                 {
@@ -670,9 +688,9 @@ const language = {
                 title: "HashNet BitEco",
                 des: "Empoderando a las empresas globales a través de una economía descentralizada de cadenas de bloque (blockchain).",
                 nav: {
-                    summary: "summary",
-                    whitepaper: "whitepaper",
-                    newsletter: "newsletter"
+                    summary: "Resumen",
+                    whitepaper: "Whitepaper",
+                    newsletter: "Boletín informativo"
                 }
             },
             item1: {
@@ -681,19 +699,19 @@ const language = {
                 list: [
                     {
                         title: "Estructura de dual token (ficha dual)",
-                        des: "la ficha  HNB representa la propiedad de la entidad económica HNB, mientras que la ficha HGS es un medio de pago estable."
+                        des: "La ficha  HNB representa la propiedad de la entidad económica HNB, mientras que la ficha HGS es un medio de pago estable."
                     },
                     {
                         title: "Algoritmo de consenso híbrido",
-                        des: "alta seguridad y alta eficiencia son son logrados combinando DPOS y Algorand."
+                        des: "Alta seguridad y alta eficiencia son son logrados combinando DPOS y Algorand."
                     },
                     {
                         title: "Pagos instantáneos",
-                        des: "transacciones instantáneas sin comisiones."
+                        des: "Transacciones instantáneas sin comisiones."
                     },
                     {
                         title: "Banco algorítmico",
-                        des: "la emisión de tokens (fichas) HGS fluctúa en función de la escala y la liquidez de la economía descentralizada"
+                        des: "La emisión de tokens (fichas) HGS fluctúa en función de la escala y la liquidez de la economía descentralizada"
                     },
                     {
                         title: "Estructura de cadena lateral múltiple",
@@ -701,11 +719,11 @@ const language = {
                     },
                     {
                         title: "Acceso SDK ligero",
-                        des: "acceso SDK comercial ultraligero, que permite a los comerciantes convertir su producto en una DApp dentro de un día."
+                        des: "Acceso SDK comercial ultraligero, que permite a los comerciantes convertir su producto en una DApp dentro de un día."
                     }
                 ]
             },
-            item2: ["Users","Enterprises","Countries"],
+            item2: ["Usuarios","Empresas","Países"],
             item3: {
                 title: "El Ecosistema de HNB",
                 des: "HNB está conectando la economía global con la economía digital descentralizada.",
@@ -727,10 +745,10 @@ const language = {
                         des: "Almacena sus activos digitales en una billetera móvil altamente segura"
                     }
                 ],
-                btnTxt: "Download the wallet"
+                btnTxt: "Descargar la billetera"
             },
             item4: {
-                title: "Roadmap",
+                title: "Mapa",
                 list: [
                     {
                         title: "Investigación",
@@ -771,7 +789,7 @@ const language = {
                 ]
             },
             item5: {
-                title: "Leadership Team",
+                title: "Equipo de liderazgo",
                 list: [
                     {
                         name: "Ken Lee",
@@ -801,13 +819,15 @@ const language = {
                 ]
             },
             item6: {
-                title: "Advisors"
+                title: "Asesores"
             },
             item7: {
-                title: "Strategic partners"
+                title: "Socios estratégicos",
+                list: ["Probing Fund","BN Capital","Creative Fund","E-Fund","MyTech Fund","HongLian Capital","BetaCoin Fund","Skyline Capital","Atlas Capital","TimeLine"]
             },
             item8: {
-                title: "Partners",
+                title: "Socios",
+                class:["Comercio electrónico","Analítica de datos","Red social","Proveedor de servicio"],
                 list: [
                     {
                         title: "Beautalk",
@@ -866,7 +886,17 @@ const language = {
                         des: "SymbolTek is a provider of video surveillance products and solutions, the company's main products include SVAC chips, modules, cameras and an intelligent video surveillance and analysis platform. SymbolTek possesses advanced audio and video codec algorithm chip design, a great amount of experience with product development and solution integration, and its products are widely used in areas such as smart cities, safe campuses and smart transportation. "
                     }
                 ]
-            } 
+            },
+            item9: {
+                title: "Sala de prensa",
+                btnTxt: "All News"
+            }
+        },
+        email: {
+            tit: "Be part of the journey",
+            des: "Subscribe to the HNB network newsletter",
+            inputTxt: "Your email address",
+            btnTxt: "Subscribe"
         }
     }
 }

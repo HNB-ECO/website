@@ -1,53 +1,5 @@
-<!-- {% for post in site.posts  limit:2 %}
-    {% cycle 'add row' : '<div class="row">', '', '' %}
-        <div class="column column-33">
-            <div class="preview-panel">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img src="{{ post.preview }}">
-                </a>
-                <div class="post-title">{{ post.title }}</div>
-           </div>
-        </div>
-{% cycle 'end row' : '', '', '</div>' %}
-{% endfor %}
-{% cycle 'end row' : '', '</div>', '</div>' %} -->
 <div class="main">
     <div id="mainBox"></div>
-    <div class="item9 box">
-        <section>
-            <h2>Newsroom</h2>
-            <div class="news">
-                <a href="{{ site.posts[0].url | prepend: site.baseurl }}"><div class="img"><img src="{{ site.posts[0].preview }}"></div></a>
-                <h5>{{ site.posts[0].title }}</h5>
-                <span>{{ site.posts[0].date | date_to_string }}</span>
-                <p>{{ site.posts[0].excerpt }}<a href="{{ site.posts[0].url | prepend: site.baseurl }}">read more</a></p>
-            </div>
-        </section>
-        <ul>
-            <li class="news">
-                <a href="{{ site.posts[1].url | prepend: site.baseurl }}">
-                    <div class="img"><img src="{{ site.posts[1].preview }}"></div>
-                    <h5>{{ site.posts[1].title }}</h5>
-                    <p>{{ site.posts[1].excerpt }}</p>
-                </a>
-            </li>
-            <li class="news">
-                <a href="{{ site.posts[2].url | prepend: site.baseurl }}">
-                    <div class="img"><img src="{{ site.posts[2].preview }}"></div>
-                    <h5>{{ site.posts[2].title }}</h5>
-                    <p>{{ site.posts[2].excerpt }}</p>
-                </a>
-            </li>
-            <li class="news">
-                <a href="{{ site.posts[3].url | prepend: site.baseurl }}">
-                    <div class="img"><img src="{{ site.posts[3].preview }}"></div>
-                    <h5>{{ site.posts[3].title }}</h5>
-                    <p>{{ site.posts[3].excerpt }}</p>
-                </a>
-            </li>
-        </ul>
-        <div class="news-btn"><a href="{{ site.baseurl }}/newsroom/">All News</a></div>
-    </div>
     <div id="mainEmail"></div>
 </div>
 
@@ -327,43 +279,43 @@
         <ul>
             <li>
                 <img src="images/Probing Fund@2x.png">
-                <p>Probing Fund</p>
+                <p><%=data.item7.list[0]%></p>
             </li>
             <li>
                 <img src="images/BN Capital@2x.png">
-                <p>BN Capital</p>
+                <p><%=data.item7.list[1]%></p>
             </li>
             <li>
                 <img src="images/Creative Manger Ventures Creative Manger Ventures @2x.png">
-                <p>Creative Fund</p>
+                <p><%=data.item7.list[2]%></p>
             </li>
             <li>
                 <img src="images/E-Fund@2x.png">
-                <p>E-Fund</p>
+                <p><%=data.item7.list[3]%></p>
             </li>
             <li>
                 <img src="images/MyTech Fund@2x.png">
-                <p>MyTech Fund</p>
+                <p><%=data.item7.list[4]%></p>
             </li>
             <li>
                 <img src="images/HongLian Capital@2x.png">
-                <p>HongLian Capital</p>
+                <p><%=data.item7.list[5]%></p>
             </li>
             <li>
                 <img src="images/BetaCoin Fund@2x.png">
-                <p>BetaCoin Fund</p>
+                <p><%=data.item7.list[6]%></p>
             </li>
             <li>
                 <img src="images/Skyline Capital@2x.png">
-                <p>Skyline Capital</p>
+                <p><%=data.item7.list[7]%></p>
             </li>
             <li>
                 <img src="images/Atlas Capital@2x.png">
-                <p>Atlas Capital</p>
+                <p><%=data.item7.list[8]%></p>
             </li>
             <li>
                 <img src="images/TimeLine@2x.png">
-                <p>TimeLine</p>
+                <p><%=data.item7.list[9]%></p>
             </li>
         </ul>
     </div>
@@ -374,7 +326,7 @@
         </section>
         <ul>
             <li>
-                <div class="tit"><i><img src="images/icon-partner1.png"></i>E-commerce</div>
+                <div class="tit"><i><img src="images/icon-partner1.png"></i><%=data.item8.class[0]%></div>
                 <div class="list">
                     <div class="partner-box">
                         <img src="images/partners1.png" style="width:.62rem">
@@ -407,7 +359,7 @@
                 </div>
             </li>
             <li>
-                <div class="tit"><i><img src="images/icon-partner2.png"></i>Data Analytics</div>
+                <div class="tit"><i><img src="images/icon-partner2.png"></i><%=data.item8.class[1]%></div>
                 <div class="list">
                     <div class="partner-box">
                         <img src="images/partners5.png" style="width:.71rem">
@@ -426,7 +378,7 @@
                 </div>
             </li>
             <li>
-                <div class="tit"><i><img src="images/icon-partner3.png"></i>Social Network</div>
+                <div class="tit"><i><img src="images/icon-partner3.png"></i><%=data.item8.class[2]%></div>
                 <div class="list">
                     <div class="partner-box">
                         <img src="images/partners7.png" style="width:.62rem">
@@ -438,7 +390,7 @@
                 </div>
             </li>
             <li>
-                <div class="tit"><i><img src="images/icon-partner4.png"></i>Service provider</div>
+                <div class="tit"><i><img src="images/icon-partner4.png"></i><%=data.item8.class[3]%></div>
                 <div class="list">
                     <div class="partner-box">
                         <img src="images/partners8.png" style="width:.62rem">
@@ -492,6 +444,42 @@
                 </div>
             </li>
         </ul>
+    </div>
+
+    <div class="item9 box">
+        <section>
+            <h2><%=data.item9.title%></h2>
+            <div class="news">
+                <a href="{{ site.posts[0].url | prepend: site.baseurl }}"><div class="img"><img src="{{ site.posts[0].preview }}"></div></a>
+                <h5>{{ site.posts[0].title }}</h5>
+                <span>{{ site.posts[0].date | date_to_string }}</span>
+                <p>{{ site.posts[0].excerpt }}<a href="{{ site.posts[0].url | prepend: site.baseurl }}">read more</a></p>
+            </div>
+        </section>
+        <ul>
+            <li class="news">
+                <a href="{{ site.posts[1].url | prepend: site.baseurl }}">
+                    <div class="img"><img src="{{ site.posts[1].preview }}"></div>
+                    <h5>{{ site.posts[1].title }}</h5>
+                    <p>{{ site.posts[1].excerpt }}</p>
+                </a>
+            </li>
+            <li class="news">
+                <a href="{{ site.posts[2].url | prepend: site.baseurl }}">
+                    <div class="img"><img src="{{ site.posts[2].preview }}"></div>
+                    <h5>{{ site.posts[2].title }}</h5>
+                    <p>{{ site.posts[2].excerpt }}</p>
+                </a>
+            </li>
+            <li class="news">
+                <a href="{{ site.posts[3].url | prepend: site.baseurl }}">
+                    <div class="img"><img src="{{ site.posts[3].preview }}"></div>
+                    <h5>{{ site.posts[3].title }}</h5>
+                    <p>{{ site.posts[3].excerpt }}</p>
+                </a>
+            </li>
+        </ul>
+        <div class="news-btn"><a href="{{ site.baseurl }}/newsroom/"><%=data.item9.btnTxt%></a></div>
     </div>
 </script>
 
