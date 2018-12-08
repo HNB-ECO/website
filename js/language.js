@@ -194,7 +194,7 @@ const language = {
                     },
                     {
                         title: "Uncle Bull",
-                        des: "Uncle Bull is an e-commerce company selling organic food and has over 1,000 vendors, 2,000 supermarket and 400,000 members. The HGS payment solution has been integrated into the Uncle Bull platform. Consumers can directly purchase products from Tmall, Taobao, Jingdong, Pinduoduo, Vipshop and obtain HGS cashback. "
+                        des: "Uncle Bull is an e-commerce company selling organic food and has over 1,000 vendors, 2,000 supermarkets and 400,000 members. The HGS payment solution has been integrated into the Uncle Bull platform. Consumers can directly purchase products from Tmall, Taobao, Jingdong, Pinduoduo, Vipshop and obtain HGS cashback. "
                     },
                     {
                         title: "XSleep",
@@ -234,7 +234,7 @@ const language = {
                     },
                     {
                         title: "SymbolTek",
-                        des: "SymbolTek is a provider of video surveillance products and solutions, the company's main products include SVAC chips, modules, cameras and an intelligent video surveillance and analysis platform. SymbolTek possesses advanced audio and video codec algorithm chip design, a great amount of experience with product development and solution integration, and its products are widely used in areas such as smart cities, safe campuses and smart transportation. "
+                        des: "SymbolTek is a provider of video surveillance products and solutions. The company's main products include SVAC chips, modules, cameras and an intelligent video surveillance and analysis platform. SymbolTek possesses advanced audio and video codec algorithm chip design, a great amount of experience with product development and solution integration, and its products are widely used in areas such as smart cities, safe campuses and smart transportation. "
                     }
                 ]
             },
@@ -681,7 +681,7 @@ const language = {
                     url: "/faq?/sp"
                 },
             ],
-            btnTxt: "Join the discussion"
+            btnTxt: "Únete a la conversación"
         },
         main: {
             top: {
@@ -779,7 +779,7 @@ const language = {
                         des: "Lanzamiento de dos cadenas públicas para el modelo de dual token (ficha dual) HNB y HGS"
                     },
                     {
-                        title: "Actualización de Mainne",
+                        title: "Actualización de Mainnet",
                         des: "Mejoramiento del rendimiento de la cadena y logro de pagos más rápidos"
                     },
                     {
@@ -831,59 +831,59 @@ const language = {
                 list: [
                     {
                         title: "Beautalk",
-                        des: "Beautalk is a B2C e-commerce platform for imported cosmetics. In order to guarantee high product quality, Beautalk only sells product directly from the manufacturer, and in doing so, ensures product authenticity, enables consumers to have a positive experience with brands and gain their trust. "
+                        des: "Beautalk es una plataforma B2C de comercio electrónico para cosméticos importados. Para poder garantizar una alta calidad del producto, Beautalk solo vende productos directamente del fabricante, al hacerlo, garantiza la autenticidad del producto, permitiendo a los consumidores tener una experiencia positiva con las marcas y ganar su confianza."
                     },
                     {
                         title: "Gaia Tablescapes",
-                        des: "Gaia Tablescapes is an international home and lifestyle brand from the United States. At the heart of Gaia Tablescapes, the focus is on tableware, kitchen utensils and home accessories. Gaia Tablescapes aims to reflect a refined and comfortable lifestyle by creating products for both the interior and exterior of restaurants, kitchens and living rooms. "
+                        des: "Gaia Tablescapes es una marca internacional de Estados Unidos enfocado en hogar y estilo de vida. En el corazón de Gaia Tablescapes, la atención se centra en su vajilla,  utensilios de cocina y  accesorios para el hogar. Gaia Tablescapes pretende reflejar un estilo de vida elegante y cómodo al crear productos para el interior y el exterior de restaurantes, cocinas y salas de estar."
                     },
                     {
                         title: "Honey",
-                        des: "Honey is the largest hand-painted IP platform with more than 100,000 artists and 30 million users. Honey has launched a KOL fan realization tool to help run its own painting business and sell peripheral products. Currently, the HGS token has been implemented as the payment medium payment to allow users to pay for KOL services. Furthermore, Honey is lacking an effective copyright protection system, so by integrating into the HNB community, Honey’s IP would be protected and costs would be reduced. "
+                        des: "Honey es la mayor plataforma de pinturas a  mano IP con más de 100,000 artistas y 30 millones de usuarios. Honey ha lanzado una herramienta de realización para fanáticos de KOL para ayudar a dirigir su propio negocio de pintura y vender productos periféricos. Actualmente, el token HGS se ha implementado como medio de pago para permitir que los usuarios paguen por los servicios de KOL. Además, Honey carece de un sistema de protección de derechos de autor efectivo, por lo que al integrarse en la comunidad de HNB, la propiedad intelectual de Honey estará protegida y los costos se reducirán."
                     },
                     {
                         title: "Uncle Bull",
-                        des: "Uncle Bull is an e-commerce company selling organic food and has over 1,000 vendors, 2,000 supermarket and 400,000 members. The HGS payment solution has been integrated into the Uncle Bull platform. Consumers can directly purchase products from Tmall, Taobao, Jingdong, Pinduoduo, Vipshop and obtain HGS cashback. "
+                        des: "Uncle Bull es una empresa de comercio electrónico que vende alimentos orgánicos y tiene más de 1,000 vendedores, 2,000 supermercados y 400,000 usuarios. La solución de pago mediante HGS token se ha integrado en la plataforma Uncle Bull. Los consumidores pueden comprar directamente productos de Tmall, Taobao, Jingdong, Pinduoduo, Vipshop y obtener un reembolso de HGS token."
                     },
                     {
                         title: "XSleep",
-                        des: "XSleep specializes in health and sleep data research. The new generation XSleep smart mattress and healthy sleep system uses data driven artificial intelligence technology. It accurately collects the user's location and reads the data, evaluates the conditions of the user's healthy sleep environment, makes adjustments and adaptations according to the user's personalized data. XSleep provides a data driven smart sleep system that is truly tailored to the individual."
+                        des: "XSleep se especializa en la investigación de datos de salud y sueño. El colchón inteligente XSleep de nueva generación y el sistema de sueño saludable utilizan tecnología de inteligencia artificial basada en información recolectada. XSleep recopila con precisión la ubicación del usuario y lee los datos, evalúa las condiciones del entorno de sueño saludable del usuario, realiza ajustes y adaptaciones de acuerdo con los datos personalizados del cliente. XSleep proporciona un sistema inteligente de sueño basado en datos que están verdaderamente adaptados a cada persona."
                     },
                     {
                         title: "EThome",
-                        des: "EThome specializes in the design and development of the Internet of Things. It is also a Big Data cloud service platform, with an intelligent control platform for home appliances. Its main products include a combination of security surveillance, lighting and electrical control, intelligent environment monitoring and audio-visual entertainment."
+                        des: "EThome se especializa en el diseño y desarrollo de elementos del Internet. También es una plataforma de servicios en la nube de macrodatos,  con una plataforma de control inteligente para electrodomésticos. Sus principales artículos incluyen una variedad de productos de vigilancia de seguridad, iluminación y control eléctrico, monitoreo de entornos inteligentes y entretenimiento audiovisual."
                     },
                     {
                         title: "Pet Show",
-                        des: "Pet Show has created a social network where users interact and socialise through the sharing of their pet pictures."
+                        des: "Pet Show ha creado una red social donde los usuarios interactúan y socializan compartiendo sus fotos de mascotas."
                     },
                     {
                         title: "Shan Dian Shua Xin",
-                        des: "Shan Dian Shua Xin is a service platform for renovations. It provides services such as wall repainting and bathroom and kitchen renovations. With their Internet-based EPG management system, standardized renovation and transformation modules, and dedicated service to homeowners; Shan Dian Shua Xin has revolutionized the home decoration industry. The platform offers a seamless renovation experience and in doing so, has set higher standards of satisfaction for decoration service providers."
+                        des: "Shan Dian Shua Xin es una plataforma de servicios para renovaciones. Brinda servicios como repintado de paredes y renovación de baños y cocinas. Con su sistema infórmatico basado en sistema de gestión de EPG , módulos de renovación y transformación estandarizados y servicio dedicado a los propietarios; Shan Dian Shua Xin ha revolucionado la industria de la decoración del hogar. La plataforma ofrece una experiencia de renovación perfecta y, al hacerlo, ha establecido mayores estándares de satisfacción para los proveedores de servicios de decoración."
                     },
                     {
                         title: "Lou Xiao Yi",
-                        des: "Lou Xiao Yi is a specialized post office operator for corporate office buildings. It solves issues with courier delivery by integrating online and offline systems. Lou Xiao Yi is currently providing services to large enterprises such as BAIC Group, Datang Mobile, Netease and the Industrial and Commercial Bank of China. It also provides services to elite enterprises in mid-to-high end office buildings such as Delta Center, Penglong Building, Zhengdong Building and Wangfu Building."
+                        des: "Lou Xiao Yi es un operador especializado de correos para edificios de oficinas corporativas. Resuelve problemas con la entrega de mensajería mediante la integración de sistemas en línea y fuera de línea. Lou Xiao Yi actualmente brinda servicios a grandes empresas como el Grupo BAIC, Datang Mobile, Netease y el Industrial and Commercial Bank of China. También brinda servicios a empresas de élite en edificios de oficinas de nivel medio a alto como Delta Center, Edificio Penglong, Edificio Zhengdong y Edificio Wangfu."
                     },
                     {
                         title: "5ichong",
-                        des: "5ichong provides an all-in-one platform for veterinary services and products. The platform includes financial services that allows for installment payments, B2B procurement platform, SAAS veterinary hospital smart management system, online veterinary diagnosis platforma and a veterinary institution. There are over 2 million pet owners registered with 5ichong, its operation covers more than 200 cities, services more than 10,000 veterinary clinics and over 20,000 veterinary professionals. "
+                        des: "5ichong proporciona una plataforma todo en uno para servicios y productos veterinarios. La plataforma incluye servicios financieros que permiten pagos en cuotas, la plataforma de compras B2B, el sistema de gestión inteligente del hospital veterinario SAAS, la plataforma de diagnóstico veterinario en línea y una institución veterinaria. Hay más de 2 millones de dueños de mascotas registrados con 5ichong, su operación cubre más de 200 ciudades, atiende a más de 10,000 clínicas veterinarias y cuenta con más de 20,000 profesionales veterinarios."
                     },
                     {
                         title: "MCreativeCentre",
-                        des: "MCreativeCentre is a Shanghai-based entertainment company that is cultivating a new generation of artists in the global landscape. MCreativeCentre also produces world-class music productions. "
+                        des: "MCreativeCentre es una compañía de entretenimiento con sede en Shanghai que está cultivando una nueva generación de artistas en el panorama global. MCreativeCentre también realiza producciones musicales de clase mundial."
                     },
                     {
                         title: "LingGongLi",
-                        des: "LingGongLi provides an improved courier delivery experience for office workers, more efficient express delivery management tools for enterprises, resulting in a reduction of costs and increased efficiency for express delivery outlets. LingGongLi has covered more than 100 office buildings to date, serving nearly one million people. It is now present in more than 100 well-known buildings such as Shanghai Center, Jinmao Tower, Citigroup Building, Bank of East Asia Building, China Customs Building and Meiluo Building."
+                        des: "LingGongLi proporciona una experiencia de entrega de mensajería mejorada para los trabajadores de oficina, herramientas de administración de entrega rápida más eficientes para las empresas, lo que resulta en una reducción de costos y una mayor eficiencia para los puntos de venta urgente. LingGongLi ha cubierto más de 100 edificios de oficinas hasta la fecha, sirviendo a casi un millón de personas. Ahora está presente en más de 100 edificios conocidos como el Centro de Shanghai, la Torre Jinmao, el Edificio Citigroup, el Edificio del Banco de Asia Oriental, el Edificio de Aduanas de China y el Edificio Meiluo."
                     },
                     {
                         title: "Thinkskey",
-                        des: "Thinkskey develops smart home solutions with industrial design as its core. Founded in Tsinghua Science and Technology Park by Li YiZhou, the company has gone from initially offering industrial design and innovative design consulting services, to manufacturing hardware and circuit boards, and developing software, to finally a smart home integrated solution provider with R&D and cloud algorithms."
+                        des: "Thinkskey desarrolla soluciones para el hogar inteligente con su núcleo en el diseño industrial. Fundada en el Parque Científico y Tecnológico Tsinghua por Li YiZhou, la empresa pasó de ofrecer inicialmente servicios de consultoría en diseño industrial y diseño innovador a hardware y placas de circuitos, y desarrollo de software, a un proveedor de soluciones integradas para el hogar inteligente con I+D y algoritmos de nube."
                     },
                     {
                         title: "SymbolTek",
-                        des: "SymbolTek is a provider of video surveillance products and solutions, the company's main products include SVAC chips, modules, cameras and an intelligent video surveillance and analysis platform. SymbolTek possesses advanced audio and video codec algorithm chip design, a great amount of experience with product development and solution integration, and its products are widely used in areas such as smart cities, safe campuses and smart transportation. "
+                        des: "SymbolTek es un proveedor de productos y soluciones de video-vigilancia, los principales productos de la compañía incluyen chips SVAC, módulos, cámaras y una plataforma inteligente de video vigilancia y análisis. SymbolTek posee un diseño avanzado de chip de algoritmo códec de audio y video, además de una gran cantidad de experiencia en el desarrollo de productos e integración de soluciones, y sus productos se utilizan ampliamente en áreas como ciudades inteligentes, campus seguros y transporte inteligente."
                     }
                 ]
             },
@@ -893,10 +893,10 @@ const language = {
             }
         },
         email: {
-            tit: "Be part of the journey",
-            des: "Subscribe to the HNB network newsletter",
-            inputTxt: "Your email address",
-            btnTxt: "Subscribe"
+            tit: "Sé parte de la travesía",
+            des: "Suscríbete al boletín de la red de HNB",
+            inputTxt: "Déjanos tu correo electrónico",
+            btnTxt: "Subscríbete"
         }
     }
 }
