@@ -15,8 +15,8 @@
         <div class="top">
             <a href="https://www.pgyer.com/W11h"><%=data.top%></a>
         </div>
-        <div class="head-nav box">
-            <a href="/"><div class="logo"><img src="{{ site.baseurl }}/images/logo.png"></div></a>
+        <div class="head-nav box pc-box">
+            <a href="/"><div class="logo"><img src="/images/logo.png"></div></a>
             <div class="language">
                 <p><span>EN</span><i></i></p>
                 <ul>
@@ -36,6 +36,24 @@
                     </li>
                 <% } %>
             </ul>
+        </div>
+        <div class="head-nav box mobile-box">
+            <a href="/"><div class="logo"><img src="/images/logo.png"></div></a>
+            <div class="nav-more">
+                <a class="more"></a>
+                <ul class="nav">
+                    <% for(var i=0; i<data.nav.length; i++){ %>
+                        <li>
+                            <a href="{{ site.baseurl }}<%=data.nav[i].url%>">
+                                <%=data.nav[i].name%>
+                            </a>
+                        </li>
+                    <% } %>
+                    <li><a href="/en">English</a></li>
+                    <li><a href="{{ site.baseurl }}/cn">中文</a></li>
+                    <li><a href="{{ site.baseurl }}/sp">Español</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </script>

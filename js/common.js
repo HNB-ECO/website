@@ -7,7 +7,11 @@ function autoChange(maxWidth, originSize) {
 };
 
 $(function() {
-    autoChange(1920, 100)
+    if ($(window).width()>700){
+        autoChange(1920, 100)
+    } else {
+        autoChange(375, 100)
+    }
     if(!sessionStorage.getItem('language')){
         var lang = (navigator.language || navigator.browserLanguage).toLowerCase().substr(0, 2);
         if(lang == 'zh'){
@@ -50,6 +54,21 @@ $(function() {
             $('#mainEmail').html(miniTpl($('#mainEmailTmpl').html(), language.en.email));
         }
     }
+
+    $(".more").click(function(){
+        if($(this).hasClass('on')){
+            $(this).removeClass('on');
+            $(this).next("ul").hide();
+        } else {
+            $(this).addClass('on');
+            $(this).next("ul").show();
+        }
+    })
+    
+    $(".nav-more li").click(function(){
+        $(this).parent().prev().removeClass('on');
+        $(this).parent("ul").hide();
+    })
 
     if($('#faqTmpl').html() && $('#faq')){
         $('#faq').html(miniTpl($('#faqTmpl').html(), language.en.faq));

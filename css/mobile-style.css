@@ -1,0 +1,642 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 700px) {
+    .pc-box {
+        display: none !important;
+    }
+    .mobile-box {
+        display: block;
+    }
+    html,body {
+        width:100%;
+        overflow-x:hidden;
+    }
+    .box {
+        padding: 0 .1rem;
+    }
+    #header {
+        height: .88rem;
+    }
+    .top {
+        box-sizing: border-box;
+        height: .38rem;
+        line-height: .38rem;
+        font-size: .1rem;
+        padding: 0 .04rem;
+    }
+    .top a {
+        display: block;
+        width: 100%;
+        overflow-x: auto; 
+        white-space: nowrap;
+    }
+    .head-nav {
+        height: .5rem;
+    }
+    .head-nav .logo img {
+        width: .62rem;
+    }
+    .nav-more {
+        width: 100%;
+        text-align: right;
+    }
+    .nav-more a.more {
+        display: inline-block;
+        width: .5rem;
+        height: .5rem;
+        background:url("../images/icon_more.png") right center no-repeat;
+        background-size: 60% auto;
+    }
+    .nav-more a.more.on {
+        background:url("../images/icon_close.png") right center no-repeat;
+        background-size: 50% auto;
+    }
+    .nav-more ul{
+        display: none;
+    }
+    .nav-more ul.nav {
+        position: fixed;
+        float: none;
+        padding-top: .2rem;
+        width: 100%;
+        height: 100%;
+        top: .8rem;
+        left:0;
+        background:#fff;
+        z-index: 90;
+        text-align: left;
+    }
+    .nav-more ul.nav li {
+        float: none;
+        padding: 0 .2rem;
+        line-height: .28rem;
+        font-size: .12rem;
+    }
+    h1.title p {
+        font-size: .36rem;
+        line-height:  .45rem;
+    }
+    h1.title {
+        margin: .2rem auto;
+        font-size: .12rem;
+        line-height: .24rem;
+    }
+    .head-btn {
+        width: 2.4rem;
+        height: .24rem;
+    }
+    .head-btn a {
+        padding: .04rem 0; 
+        font-size: .12rem;
+        line-height: .16rem;
+    }
+    .content {
+        padding-bottom: .2rem;
+    }
+    .content h2 {
+        padding: .88rem 0 .2rem;
+        font-size: .24rem;
+        line-height: .3rem;
+    }
+    .content p {
+        padding: 0 .2rem;
+        font-size: .12rem;
+        line-height: .18rem;
+    }
+    .item1 ul li {
+        padding: .1rem;
+        width: 50%;
+    }
+    .item1 li .img {
+        width: .26rem;
+        height: .18rem;
+        padding-top: .08rem;
+        border-radius: 50%;
+    }
+    
+    .item1 .img img {
+        width: .12rem;
+    }
+    
+    .item1 li h5 {
+        padding: .1rem 0 .06rem;
+        font-size: .12rem;
+        line-height: .18rem;
+    }
+    
+    .item1 li p {
+        font-size: .12rem;
+        line-height: .16rem;
+    }
+    .item2 {
+        margin-top: .3rem;
+        height: .8rem;
+    }
+    
+    .item2 div {
+        width: 1.2rem;
+        font-size: .12rem;
+        line-height: .16rem;
+    }
+    
+    .item2 div p {
+        padding-bottom: 0;
+        font-size: .24rem;
+        line-height: .28rem;
+    }
+    .item3 .system {
+        padding: .2rem 0 0 0;
+    }
+    
+    .item3 .system .left {
+        position: static;
+        width: 100%;
+        padding-bottom: .4rem;
+    }
+    
+    .item3 .system .left img {
+        width: 2.24rem;
+    }
+    
+    .item3 .system ul li {
+        box-sizing: border-box;
+        padding: 0 0 .2rem .3rem;
+        width: 50%;
+        background-size: .2rem .2rem;
+    }
+    
+    .item3 .system h5 {
+        padding-bottom: .1rem;
+        font-size: .12rem;
+        line-height: .2rem;
+    }
+    
+    .item3 .system p {
+        font-size: .1rem;
+        line-height: .16rem;
+    }
+    .item3 .system .right {
+        position: relative;
+    }
+    .item3 .system .code {
+        position: static;
+        width: .86rem;
+        height: .8rem;
+        margin: 0 auto;
+    }
+    
+    .item3 .system .download-btn {
+        width: 1.8rem;
+        height: .38rem;
+        margin: 0.12rem auto 0;
+        font-size: .14rem;
+        line-height: .38rem;
+        border-radius: .19rem;
+    }
+    .item4 ul {
+        justify-content: flex-start;
+    }
+    .item4 ul li {
+        width: 50%;
+    }
+    
+    .item4 li h5 {
+        padding: 0 0 .1rem;
+        font-size: .14rem;
+        line-height: .18rem;
+    }
+    
+    .item4 li div.txt {
+        padding: 0;
+        height: .92rem;
+        font-size: .12rem;
+        line-height: .16rem;
+    }
+    
+    .item4 li p {
+        position: relative;
+        padding: .26rem 0 .5rem;
+        font-size: .12rem;
+        line-height: .16rem;
+    }
+    .item4 li:last-child p {
+        padding-bottom: 0;
+    }
+    
+    .item4 li p span {
+        top: -0.1rem;
+        margin-left: -.1rem;
+        width: .12rem;
+        height: .12rem;
+        padding: .04rem;
+    }
+    .item4 li .border1-m-left {
+        border-top: #008FE9 solid 1px; 
+        border-left: #008FE9 solid 1px; 
+        border-radius: 1.4rem 0 0 0;
+    }
+    .item4 li .border1-m-right {
+        border-top: #E9E9E9 solid 1px; 
+        border-right: #E9E9E9 solid 1px; 
+        border-radius: 0 1.4rem 0 0;
+    }
+    .item4 li .border2-m-right {
+        border-bottom: #E9E9E9 solid 1px; 
+        border-right: #E9E9E9 solid 1px; 
+        border-radius: 0 0 1.4rem 0;
+    }
+    .item5 ul li {
+        width: 1.6rem;
+        height: 2.3rem;
+        margin: .08rem;
+    }
+    
+    .item5 li .positive {
+        padding-top: .12rem;
+    }
+    
+    .item5 li .positive .img {
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+    
+    .item5 li .positive .name {
+        padding: .1rem 0 .06rem;
+        font-size: .14rem;
+        line-height: .18rem;
+    }
+    
+    .item5 li .positive .tit {
+        padding: 0 0 .04rem;
+        font-size: .14rem;
+        line-height: .18rem;
+    }
+    
+    .box .link-in {
+        width: .36rem;
+        height: .36rem;
+    }
+    
+    .item5 li .negative .name {
+        padding: .1rem 0 .08rem;
+        font-size: .14rem;
+        line-height: .18rem;
+    }
+    
+    .item5 li .negative .tit {
+        padding: 0 0 .1rem;
+        font-size: .14rem;
+        line-height: .18rem;
+    }
+    
+    .item5 li .negative .info {
+        font-size: .12rem;
+        line-height: .18rem;
+    }
+    .item6 ul li {
+        width: 1.6rem;
+        height: 2.3rem;
+        margin: .1rem 0;
+    }
+    
+    .item6 li .positive {
+        padding-top: .12rem;
+    }
+    
+    .item6 li .positive .img {
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+    
+    .item6 li .positive .name {
+        padding: .1rem 0 .06rem;
+        font-size: .14rem;
+        line-height: .18rem;
+    }
+    
+    .item6 li .positive .tit {
+        padding: 0 0 .04rem;
+        font-size: .14rem;
+        line-height: .18rem;
+    }
+    .item7 ul {
+        flex-wrap: wrap;
+    }
+    .item7 ul li {
+        width: 20%;
+    }
+    .item7 ul li img {
+        margin-bottom: .04rem;
+    }
+    .item7 ul li p {
+        font-size: .12rem;
+        line-height: .16rem;
+    }
+    .item8 ul li {
+        float:none;
+        width: 100%;
+        text-align: center;
+    }
+    .item8 li .tit {
+        display: inline-block;
+        padding: 0 0 .2rem .48rem;
+        height: .3rem;
+        font-size: .12rem;
+        line-height: .3rem;
+    }
+    
+    .item8 li .tit i {
+        width: .3rem;
+        height: .3rem;
+    }
+    
+    .item8 li .tit i img {
+        height: .16rem;
+    }
+
+    .item8 li .list {
+        height: auto !important;
+        margin-bottom:.3rem;
+    }
+    
+    .item8 li .list .partner-box {
+        float: none;
+        display: inline-block;
+        margin: .07rem;
+        width: 1.6rem;
+        height: .78rem;
+        line-height: .78rem;
+    }
+    
+    .item8 li .list .partner-box .info {
+        left: 0;
+        top: .8rem;
+        width: 3.1rem;
+        padding: .2rem .1rem;
+    }
+    
+    .partner-box .info h5{
+        font-size: .16rem;
+        line-height: .3rem;
+        padding-bottom: .16rem
+    }
+    .partner-box .info p{
+        font-size: .12rem;
+        line-height: .18rem;
+    }
+    
+    .item8 li .list .partner-box img {
+        vertical-align: middle;
+    }
+    .item8 li .list .partner-box .right{
+        left: 0;
+        right: auto;
+    }
+    .item8 li .list .partner-box .right-m{
+        left: auto;
+        right: 0;
+    }
+    .item9 section {
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .item9 h2 {
+        position: static;
+        text-align: center;
+        font: .24rem/.3rem 'NeoSansIntel';
+    }
+    
+    .item9 .news .img {
+        width: 100%;
+        height: .78rem;
+        margin-bottom: .2rem;
+    }
+    
+    .item9 section .news .img {
+        height: auto;
+        margin-bottom: .1rem;
+    }
+    
+    .item9 .news h5 {
+        margin-bottom: .1rem;
+        font: .14rem/.18rem 'NeoSansIntel';
+    }
+    
+    .item9 .news span {
+        padding-bottom: .1rem;
+        font: .12rem/.16rem 'NeoSansIntel';
+    }
+    
+    .item9 .news p {
+        font-size: .10rem;
+        line-height: .16rem;
+        margin-bottom: .2rem;
+    }
+    
+    .item9 li.news p {
+        height: .48rem;
+    }
+    
+    .item9 li.news h5 {
+        height: .36rem;
+        font: .14rem/.18rem 'NeoSansIntel';
+    }
+    .item9 li.news:last-child{
+        display: none;
+
+    }
+    
+    .item9 .news-btn {
+        text-align: center;
+        padding-bottom: .3rem;
+    }
+    
+    .item9 .news-btn a {
+        width: .8rem;
+        height: .24rem;
+        font: .12rem/.24rem 'NeoSansIntel';
+        border-radius: .12rem;
+    }
+    
+    .item9 ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .item9 ul li {
+        margin: 0 .2rem;
+    }
+    .email {
+        height: 1.5rem;
+    }
+    
+    .email h4 {
+        padding: .2rem 0 .1rem;
+        font: .16rem/.2rem 'NeoSansIntel';
+    }
+    
+    .email p {
+        font: .10rem/.16rem 'NeoSansIntel';
+    }
+    .email .em-form {
+        margin: .18rem auto 0;
+        padding-right: .86rem;
+        width: 2.14rem;
+        height: .34rem;
+        border-radius: .18rem;
+    }
+    .email .em-form input {
+        height: .34rem;
+        font-size: .12rem;
+        line-height: .34rem;
+        padding: 0 .2rem;
+    }
+    .email .em-form a {
+        width: .86rem;
+        height: .34rem;
+        font-size: .12rem;
+        line-height: .34rem;
+        border-radius: .18rem;
+    }
+    .footer {
+        padding: .24rem 0 .3rem;
+    }
+    
+    .footer .left {
+        float: none;
+        padding-left: .12rem;
+    }
+    
+    .footer .left h4 {
+        font-size: .24rem;
+        padding-bottom: .1rem;
+    }
+    
+    .footer .left p {
+        font-size: .1rem;
+        padding-bottom: 0;
+    }
+    
+    .footer .right {
+        float: none;
+        text-align: left;
+    }
+    
+    .footer .right p {
+        font-size: .1rem;
+        padding: .3rem 0 0 .12rem;
+    }
+    .social_agileinfo {
+        padding-top: .2rem;
+        text-align: center;
+    }
+    .social_agileinfo li a {
+        width: .36rem;
+        height: .36rem;
+        margin:0 .03rem;
+    }
+    .news-main {
+        width: 100%;
+        margin: 0;
+    }
+    .news-list li {
+        position: relative;
+        padding: .15rem 0 .15rem 1.46rem;
+        height: auto;
+    }
+    
+    .news-list li .img {
+        left: .1rem;
+        top: .15rem;
+        width: 1.26rem;
+        height: .77rem;
+    }
+    
+    .news-list li h5 {
+        height: .24rem;
+        margin-bottom: .04rem;
+        font: .16rem/.24rem 'NeoSansIntel';
+    }
+    
+    .news-list li span {
+        padding-bottom: .04rem;
+        font: .1rem/.12rem 'NeoSansIntel';
+    }
+    
+    .news-list li p {
+        height: .34rem;
+        font-size: .1rem;
+        line-height: .12rem;
+    }
+
+    .detail-main {
+        width: 100%;
+        box-sizing: border-box;
+        padding:.1rem;
+        margin: .2rem auto;
+    }
+    
+    .detail-main .tit {
+        margin-bottom: .1rem;
+        font: .16rem/.24rem 'NeoSansIntel';
+    }
+    
+    .detail-main .time {
+        padding-bottom: .14rem;
+        color: #959595;
+        font: .12rem/.16rem 'NeoSansIntel';
+    }
+    
+    .detail-con {
+        font-size: .12rem;
+        line-height: .18rem;
+    }
+    
+    .detail-con p {
+        padding-bottom: .1rem;
+    }
+    
+    .detail-con img {
+        max-width: 100%;
+    }
+
+    .faq {
+        padding-left: 1.2rem;
+        min-height: 2rem;
+    }
+    .faq .left li {
+        font-size: .12rem;
+        line-height: .4rem;
+    }
+    .faq .right ul li {
+        margin-bottom: .2rem;
+    }
+    .faq .right h5{ 
+        padding-left: .38rem;
+        border-radius: .15rem;
+        font: .12rem/.24rem 'NeoSansIntel';
+        background-size: .1rem auto;
+    }
+    .faq .right h5 span {
+        width: .3rem;
+    }
+    .faq .right li > div {
+        padding:.2rem 2% .2rem .38rem;
+        margin-top: .14rem;
+    }
+    .faq .right h6 {
+        font: .12rem/.18rem 'NeoSansIntel';
+        margin-bottom: .16rem;
+        background-size: .1rem auto;
+    }
+    .faq .right div>span {
+        top: .2rem;
+        width: .3rem;
+        font: .12rem/.18rem 'NeoSansIntel';
+    }
+    .faq .right div>p{
+        font-size: .1rem;
+        line-height: .16rem;
+    }
+}
