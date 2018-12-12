@@ -15,7 +15,7 @@
         padding: 0 .1rem;
     }
     #header {
-        height: .88rem;
+        height: .8rem;
     }
     .top {
         box-sizing: border-box;
@@ -31,10 +31,13 @@
         white-space: nowrap;
     }
     .head-nav {
-        height: .5rem;
+        height: .42rem;
+    }
+    .head-nav .logo {
+        padding: .06rem;
     }
     .head-nav .logo img {
-        width: .62rem;
+        width: .56rem;
     }
     .nav-more {
         width: 100%;
@@ -42,14 +45,14 @@
     }
     .nav-more a.more {
         display: inline-block;
-        width: .5rem;
-        height: .5rem;
+        width: .42rem;
+        height: .42rem;
         background:url("../images/icon_more.png") right center no-repeat;
-        background-size: 60% auto;
+        background-size: .2rem auto;
     }
     .nav-more a.more.on {
         background:url("../images/icon_close.png") right center no-repeat;
-        background-size: 50% auto;
+        background-size: .16rem auto;
     }
     .nav-more ul{
         display: none;
