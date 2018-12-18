@@ -1,5 +1,5 @@
 ---
-layout: language
+layout: language_cn
 title: HNB
 permalink: /cn
 ---

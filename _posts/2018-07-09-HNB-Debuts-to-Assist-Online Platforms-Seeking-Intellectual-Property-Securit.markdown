@@ -1,11 +1,14 @@
 ---
+title: HNB Debuts to Assist Online Platforms Seeking Intellectual Property Security
 layout: post
-title:  "HNB Debuts to Assist Online Platforms Seeking Intellectual Property Security"
-date:   2018-07-09 21:13:15
+date: '2018-07-09 21:13:15 +0000'
 preview: https://s.yimg.com/ny/api/res/1.2/.XvrVbM6hMUfRQNrhdM2bA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9MTI4MDtoPTk2MA--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/HNB_Debuts_to_Assist_Online-116fe7bbd36a49419860d5ca1db66db5
-excerpt: "SHANGHAI, July 9, 2018 -- In the spirit of the new epoch of the public blockchain, the HNB project has been launched. Based on a public chain, HNB, aka Hashnet BitEco, provides a decentralized platform for people to work and exchange their products or services without the fear of theft, thereby establishing and developing a promising and diverse real economy.
-
-"
+excerpt: SHANGHAI, July 9, 2018 -- In the spirit of the new epoch of the public blockchain,
+  the HNB project has been launched. Based on a public chain, HNB, aka Hashnet BitEco,
+  provides a decentralized platform for people to work and exchange their products
+  or services without the fear of theft, thereby establishing and developing a promising
+  and diverse real economy.
+categories: en
 ---
 
 ![Picture 1]( https://s.yimg.com/ny/api/res/1.2/.XvrVbM6hMUfRQNrhdM2bA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9MTI4MDtoPTk2MA--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/HNB_Debuts_to_Assist_Online-116fe7bbd36a49419860d5ca1db66db5)

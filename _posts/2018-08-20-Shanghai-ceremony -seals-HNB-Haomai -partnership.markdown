@@ -1,9 +1,14 @@
 ---
+title: Shanghai ceremony seals HNB, Haomai partnership
 layout: post
-title:  "Shanghai ceremony seals HNB, Haomai partnership"
-date:   2018-08-20 22:39:40
+date: '2018-08-20 22:39:40 +0000'
 preview: https://s.yimg.com/ny/api/res/1.2/ZGtNN8TtgyAAIFZiINQgHw--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Shanghai_ceremony_seals_HNB_Haomai-babe06299f89de638ec9af0194d350e5
-excerpt: "SHANGHAI, Aug. 20, 2018 /PRNewswire/ -- A signing ceremony was held in Shanghai on July 28 to mark the agreement of a formal business partnership between HNB Foundation and the e-commerce platform Haomai. Representatives from both parties attended the ceremony, with HNB's strategic investor and advisor Mr Ken Lee and Haomai's founder Mr Qianli Chen on hand for the proceedings."
+excerpt: SHANGHAI, Aug. 20, 2018 /PRNewswire/ -- A signing ceremony was held in Shanghai
+  on July 28 to mark the agreement of a formal business partnership between HNB Foundation
+  and the e-commerce platform Haomai. Representatives from both parties attended the
+  ceremony, with HNB's strategic investor and advisor Mr Ken Lee and Haomai's founder
+  Mr Qianli Chen on hand for the proceedings.
+categories: en
 ---
 
 ![Picture 1](https://s.yimg.com/ny/api/res/1.2/ZGtNN8TtgyAAIFZiINQgHw--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_PRNEWSWIRE_LIVE/Shanghai_ceremony_seals_HNB_Haomai-babe06299f89de638ec9af0194d350e5)

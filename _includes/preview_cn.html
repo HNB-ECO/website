@@ -505,7 +505,7 @@
     </div>
 
     <div class="item9 box">
-               {% for post in site.categories.en %}
+               {% for post in site.categories.cn %}
                	{% if forloop.first %}
                	        <section>
 			            <h2><%=data.item9.title%></h2>
@@ -519,7 +519,7 @@
 			        {% endif %}
 		  {% endfor %}
                	<ul>
-               	 {% for post in site.categories.en limit:4 %}
+               	 {% for post in site.categories.cn limit:4 %}
                		{% if  forloop.first %}
 
 			  {% else %}
@@ -534,8 +534,7 @@
                	
                 {% endfor %}
              </ul>
-        
-        <div class="news-btn"><a href="{{ site.baseurl }}/newsroom/"><%=data.item9.btnTxt%></a></div>
+        <div class="news-btn"><a href="{{ site.baseurl }}/newsroom_cn/"><%=data.item9.btnTxt%></a></div>
     </div>
 </script>
 

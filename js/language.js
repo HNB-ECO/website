@@ -423,7 +423,7 @@ const language = {
                 },
                 {
                     name: "新闻",
-                    url: "/newsroom?/cn"
+                    url: "/newsroom_cn"
                 },
                 {
                     name: "问答",
@@ -638,7 +638,8 @@ const language = {
             },
             item9: {
                 title: "新闻",
-                btnTxt: "更多新闻"
+                btnTxt: "更多新闻",
+                prefix:"cn"
             }
         },
         email: {

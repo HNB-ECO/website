@@ -1,10 +1,18 @@
 ---
+title: 'HNB: Using Blockchain to Create the New Decentralized Global Economy'
 layout: post
-title:  "HNB: Using Blockchain to Create the New Decentralized Global Economy"
-date:   2018-07-19 19:09:00
+date: '2018-07-19 19:09:00 +0000'
 preview: https://mma.prnewswire.com/media/719888/HNB_Economy_Community.jpg?p=publish&w=950
-excerpt: "SHANGHAI, July 18, 2018  -- Making its debut at the inaugural forum of 'Blockchain Hundred People Lecture' event in Shanghai on June 22, Hashnet BitEco (HNB), launched its vision of building the decentralized economic model, which looks to provide a decentralized public chain where individuals and companies can work and exchange products and services with trust and security. The model encourages the safe and rapid establishment and development of a diverse, real economy of many business sectors, reducing transaction costs and facilitating unfettered trade and exchanges while building mutual trust among users. It uses a unique architecture framework and dual-token system to deliver the full power and potential of the blockchain.
-"
+excerpt: SHANGHAI, July 18, 2018  -- Making its debut at the inaugural forum of 'Blockchain
+  Hundred People Lecture' event in Shanghai on June 22, Hashnet BitEco (HNB), launched
+  its vision of building the decentralized economic model, which looks to provide
+  a decentralized public chain where individuals and companies can work and exchange
+  products and services with trust and security. The model encourages the safe and
+  rapid establishment and development of a diverse, real economy of many business
+  sectors, reducing transaction costs and facilitating unfettered trade and exchanges
+  while building mutual trust among users. It uses a unique architecture framework
+  and dual-token system to deliver the full power and potential of the blockchain.
+categories: en
 ---
 
 ![Picture 1](https://mma.prnewswire.com/media/719888/HNB_Economy_Community.jpg?p=publish&w=950)
