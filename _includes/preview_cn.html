@@ -513,7 +513,7 @@
 			                <a href="{{post.url | prepend: site.baseurl }}"><div class="img"><img src="{{post.preview }}"></div></a>
 			                <h5>{{post.title }}</h5>
 			                <span>{{post.date | date_to_string }}</span>
-			                <p>{{post.excerpt }}<a href="{post.url | prepend: site.baseurl }}">read more</a></p>
+			                <p>{{post.excerpt }}<a href="{{ post.url | prepend: site.baseurl }}">read more</a></p>
 			            </div>
 			        </section>
 			        {% endif %}

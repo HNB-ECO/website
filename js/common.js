@@ -15,10 +15,10 @@ $(function() {
     if(!sessionStorage.getItem('language')){
         var lang = (navigator.language || navigator.browserLanguage).toLowerCase().substr(0, 2);
         if(lang == 'zh'){
-            window.location.href = "/cn"
+            window.location.href = "/cn.html"
             sessionStorage.setItem('language','cn')
         } else if (lang == 'es'){
-            window.location.href = "/sp"
+            window.location.href = "/sp.html"
             sessionStorage.setItem('language','sp')
         } else {
             sessionStorage.setItem('language','en')

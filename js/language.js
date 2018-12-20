@@ -5,23 +5,23 @@ const language = {
             nav: [
                 {
                     name: "Features",
-                    url: "/#features"
+                    url: "/en.html#features"
                 },
                 {
                     name: "Ecosystem",
-                    url: "/#ecosystem"
+                    url: "/en.html#ecosystem"
                 },
                 {
                     name: "Roadmap",
-                    url: "/#roadmap"
+                    url: "/en.html#roadmap"
                 },
                 {
                     name: "Team",
-                    url: "/#team"
+                    url: "/en.html#team"
                 },
                 {
                     name: "Advisors",
-                    url: "/#advisors"
+                    url: "/en.html#advisors"
                 },
                 {
                     name: "Newsroom",
@@ -403,23 +403,23 @@ const language = {
             nav: [
                 {
                     name: "特点",
-                    url: "/cn#features"
+                    url: "/cn.html#features"
                 },
                 {
                     name: "生态系统",
-                    url: "/cn#ecosystem"
+                    url: "/cn.html#ecosystem"
                 },
                 {
                     name: "里程碑",
-                    url: "/cn#roadmap"
+                    url: "/cn.html#roadmap"
                 },
                 {
                     name: "团队",
-                    url: "/cn#team"
+                    url: "/cn.html#team"
                 },
                 {
                     name: "项目顾问",
-                    url: "/cn#advisors"
+                    url: "/cn.html#advisors"
                 },
                 {
                     name: "新闻",
@@ -655,23 +655,23 @@ const language = {
             nav: [
                 {
                     name: "Características",
-                    url: "/sp#features"
+                    url: "/sp.html#features"
                 },
                 {
                     name: "Ecosistema",
-                    url: "/sp#ecosystem"
+                    url: "/sp.html#ecosystem"
                 },
                 {
                     name: "Mapa",
-                    url: "/sp#roadmap"
+                    url: "/sp.html#roadmap"
                 },
                 {
                     name: "Equipo",
-                    url: "/sp#team"
+                    url: "/sp.html#team"
                 },
                 {
                     name: "Asesores",
-                    url: "/sp#advisors"
+                    url: "/sp.html#advisors"
                 },
                 {
                     name: "Sala de prensa",
