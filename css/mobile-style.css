@@ -358,15 +358,15 @@
     }
 
     .item8 li .list {
-        height: auto !important;
+        text-align: left;
         margin-bottom:.3rem;
     }
     
     .item8 li .list .partner-box {
         float: none;
         display: inline-block;
-        margin: .07rem;
-        width: 1.6rem;
+        margin: 2%;
+        width: 46% !important;
         height: .78rem;
         line-height: .78rem;
     }

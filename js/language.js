@@ -178,65 +178,218 @@ const language = {
             },
             item8: {
                 title: "Partners",
-                class:["E-commerce","Data Analytics","Social Network","Service provider"],
-                list: [
-                    {
+                class:[{
+                    tit:"E-commerce",
+                    list:[{
+                        img:"images/partners1.png",
+                        imgW:"1.58rem",
+                        class:"",
                         title: "Beautalk",
                         des: "Beautalk is a B2C e-commerce platform for imported cosmetics. In order to guarantee high product quality, Beautalk only sells product directly from the manufacturer, and in doing so, ensures product authenticity, enables consumers to have a positive experience with brands and gain their trust. "
                     },
                     {
+                        img:"images/partners2.png",
+                        imgW:"1.22rem",
+                        class:"right-m",
                         title: "Gaia Tablescapes",
                         des: "Gaia Tablescapes is an international home and lifestyle brand from the United States. At the heart of Gaia Tablescapes, the focus is on tableware, kitchen utensils and home accessories. Gaia Tablescapes aims to reflect a refined and comfortable lifestyle by creating products for both the interior and exterior of restaurants, kitchens and living rooms. "
                     },
                     {
+                        img:"images/partners3.png",
+                        imgW:".85rem",
                         title: "Honey",
+                        class:"",
                         des: "Honey is the largest hand-painted IP platform with more than 100,000 artists and 30 million users. Honey has launched a KOL fan realization tool to help run its own painting business and sell peripheral products. Currently, the HGS token has been implemented as the payment medium payment to allow users to pay for KOL services. Furthermore, Honey is lacking an effective copyright protection system, so by integrating into the HNB community, Honey’s IP would be protected and costs would be reduced. "
                     },
                     {
+                        img:"images/partners4.png",
+                        imgW:".71rem",
+                        class:"right-m",
                         title: "Uncle Bull",
                         des: "Uncle Bull is an e-commerce company selling organic food and has over 1,000 vendors, 2,000 supermarkets and 400,000 members. The HGS payment solution has been integrated into the Uncle Bull platform. Consumers can directly purchase products from Tmall, Taobao, Jingdong, Pinduoduo, Vipshop and obtain HGS cashback. "
                     },
                     {
+                        img:"images/partners15.png",
+                        imgW:"1.2rem",
+                        class:"",
+                        title: "Seyala",
+                        des: "Seyala is a brand of imported infant formula from New Zealand GMP Dairy. The main products currently sold in the Chinese market are New Zealand SLC Lactoferrin infant formula, include Formula milk powder (0-6 months old, 1 section), New Zealand larger infant formula (6-12 months old, 2 sections) and New Zealand infant formula (12-36 months old, 3 sections)"
+                    },
+                    {
+                        img:"images/partners16.png",
+                        imgW:"1.8rem",
+                        class:"right right-m",
+                        title: "Paw’s Beauty",
+                        des: "Pursuing challenges, dynamic energy, young fashion is our most fundamental source of inspiration. Dare to pursue ultimate and continue to create pets product with excellent appearance, experience and entertainment for young pets lover. Let you and your pet easy to get alone with the essence of happiness."
+                    },
+                    {
+                        img:"images/partners17.png",
+                        imgW:".68rem",
+                        class:"right",
+                        title: "BRITA",
+                        des: "BRITA is the world's leading filter drinking water brand has become synonymous with filter water in many countries. Since the invention of the first domestic filter water in 1966, the German family business has now spread to more than 60 countries on five continents, with 18 domestic and international subsidiary company. Joint stock companies, sales and industrial partners and also has several manufacture plants in Germany, UK and Switzerland"
+                    },
+                    {
+                        img:"images/partners18.png",
+                        imgW:".76rem",
+                        class:"right right-m",
+                        title: "Fan Deng Reading",
+                        des: "Fan Deng reading club is a learning organization based on the mobile internet and a pioneer in “all-people reading”. Our mission is to help 300 million in China develop reading habits. Fan Deng reading club provides a variety of essential interpretations such as video, audio and graphic forms on App to help those who do not have time or don’t know which to read 50 books very year. Fan Deng reading Club aims to help more Chinese people to develop reading habits and improve themselves."
+                    },
+                    {
+                        img:"images/partners19.png",
+                        imgW:"1.78rem",
+                        class:"",
+                        title: "Bazaar",
+                        des: "Bazaar magazine is a fashion magazine, which can be purchased in most newsstands and post offices. Also serving empower elite women from fashion and beauty"
+                    },
+                    {
+                        img:"images/partners20.png",
+                        imgW:"1.68rem",
+                        class:"right-m",
+                        title: "FLORY",
+                        des: "FLORY is the core brand of Furong Group. It is an international brand registered in more than 30 countries around the world. "
+                    },
+                    {
+                        img:"images/partners21.png",
+                        imgW:"1.58rem",
+                        class:"",
+                        title: "Skip Hop",
+                        des: "At Skip Hop, we re-think, re-energize and re-engineer products to infuse joy. Endlessly curious, we're constantly questioning functionality, form and design. As a global lifestyle brand, our core philosophy begins and ends with 'Must-Haves Made Better' — an unwavering passion for well-curated, smartly designed essentials for parents, babies and toddlers."
+                    },
+                    {
+                        img:"images/partners22.png",
+                        imgW:"1.36rem",
+                        class:"right-m",
+                        title: "Quality English",
+                        des: "Quality online education group is an online English education institution headquartered in Toronto, Canada. 100% of foreign teachers from North America with teaching qualifications. Quality English is dedicated to honing the most quality and authentic English education services. Quality English relying on the most advanced research results in teaching English with professional and responsible teachers to quickly improve practical ability and test scores in four dimensions. Listening, Speaking, Reading, and Writing of elementary school students."
+                    },
+                    {
+                        img:"images/partners23.png",
+                        imgW:".66rem",
+                        class:"",
+                        title: "Cellar One",
+                        des: "Cellar One is a well-known Australian wine industry group and a member of the Australian wine chamber of commerce. It’s been committed to the development and establishment of the international wine market and the transplantation and dissemination of high-end wine culture."
+                    },
+                    {
+                        img:"images/partners24.png",
+                        imgW:"1.58rem",
+                        class:"right right-m",
+                        title: "Paul Frank",
+                        des: "Paul Frank began in 1995 in a small Huntington Beach garage when Paul Frank himself began sewing custom wallets as gifts for his friends. His products were unique and people couldn’t find anything like them anywhere else. His gifts consisted of whimsical characters with names like Julius and Skurvy"
+                    },
+                    {
+                        img:"images/partners25.png",
+                        imgW:"1.9rem",
+                        class:"right",
+                        title: "Angry Birds Cookie",
+                        des: "Angry bird biscuits, using healthy raw materials to create good quality flavors."
+                    },
+                    {
+                        img:"images/partners26.png",
+                        imgW:"1.28rem",
+                        class:"right right-m",
+                        title: "Flat 5",
+                        des: "Flat 5 is a technique for music chord substitution using the Cycle of Fifths that brings about interesting variation to the note while the notation “f” performs it loud."
+                    },
+                    {
+                        img:"images/partners27.png",
+                        imgW:"1.62rem",
+                        class:"",
+                        title: "Nomona",
+                        des: "Online High-end bathroom brand , focusing on independent design, research and development and production of home bathroom products. Bringing a new home bathroom online shopping experience for everyone who cares about taste and comfort"
+                    },
+                    {
+                        img:"images/partners28.png",
+                        imgW:".94rem",
+                        class:"right-m",
+                        title: "Mint Holiday",
+                        des: "Mint International travel service was established in 2014, with “Mint Holiday” “Artistic Comfort” “Playful Tribe” “Family World”. Committed to high quality travel experience, service. Creating global travel industry platform with innovation."
+                    }]
+                },{
+                    tit:"Data Analytics",
+                    list:[{
+                        img:"images/partners5.png",
+                        imgW:".71rem",
+                        class:"",
                         title: "XSleep",
                         des: "XSleep specializes in health and sleep data research. The new generation XSleep smart mattress and healthy sleep system uses data driven artificial intelligence technology. It accurately collects the user's location and reads the data, evaluates the conditions of the user's healthy sleep environment, makes adjustments and adaptations according to the user's personalized data. XSleep provides a data driven smart sleep system that is truly tailored to the individual."
                     },
                     {
+                        img:"images/partners6.png",
+                        imgW:"1.25rem",
+                        class:"right-m",
                         title: "EThome",
                         des: "EThome specializes in the design and development of the Internet of Things. It is also a Big Data cloud service platform, with an intelligent control platform for home appliances. Its main products include a combination of security surveillance, lighting and electrical control, intelligent environment monitoring and audio-visual entertainment."
-                    },
-                    {
+                    }]
+                },{
+                    tit:"Social Network",
+                    list:[{
+                        img:"images/partners7.png",
+                        imgW:".62rem",
+                        class:"right",
                         title: "Pet Show",
                         des: "Pet Show has created a social network where users interact and socialise through the sharing of their pet pictures."
-                    },
-                    {
-                        title: "Shan Dian Shua Xin",
-                        des: "Shan Dian Shua Xin is a service platform for renovations. It provides services such as wall repainting and bathroom and kitchen renovations. With their Internet-based EPG management system, standardized renovation and transformation modules, and dedicated service to homeowners; Shan Dian Shua Xin has revolutionized the home decoration industry. The platform offers a seamless renovation experience and in doing so, has set higher standards of satisfaction for decoration service providers."
-                    },
-                    {
+                    }]
+                },{
+                    tit:"Service provider",
+                    list:[{
+                        img:"images/partners9.png",
+                        imgW:"1.21rem",
+                        class:"",
                         title: "Lou Xiao Yi",
                         des: "Lou Xiao Yi is a specialized post office operator for corporate office buildings. It solves issues with courier delivery by integrating online and offline systems. Lou Xiao Yi is currently providing services to large enterprises such as BAIC Group, Datang Mobile, Netease and the Industrial and Commercial Bank of China. It also provides services to elite enterprises in mid-to-high end office buildings such as Delta Center, Penglong Building, Zhengdong Building and Wangfu Building."
                     },
                     {
+                        img:"images/partners10.png",
+                        imgW:"1.5rem",
+                        class:"right-m",
                         title: "5ichong",
                         des: "5ichong provides an all-in-one platform for veterinary services and products. The platform includes financial services that allows for installment payments, B2B procurement platform, SAAS veterinary hospital smart management system, online veterinary diagnosis platforma and a veterinary institution. There are over 2 million pet owners registered with 5ichong, its operation covers more than 200 cities, services more than 10,000 veterinary clinics and over 20,000 veterinary professionals. "
                     },
                     {
+                        img:"images/partners11.png",
+                        imgW:".86rem",
+                        class:"",
                         title: "MCreativeCentre",
                         des: "MCreativeCentre is a Shanghai-based entertainment company that is cultivating a new generation of artists in the global landscape. MCreativeCentre also produces world-class music productions. "
                     },
                     {
+                        img:"images/partners12.png",
+                        imgW:"1.3rem",
+                        class:"right-m",
                         title: "LingGongLi",
                         des: "LingGongLi provides an improved courier delivery experience for office workers, more efficient express delivery management tools for enterprises, resulting in a reduction of costs and increased efficiency for express delivery outlets. LingGongLi has covered more than 100 office buildings to date, serving nearly one million people. It is now present in more than 100 well-known buildings such as Shanghai Center, Jinmao Tower, Citigroup Building, Bank of East Asia Building, China Customs Building and Meiluo Building."
                     },
                     {
+                        img:"images/partners29.png",
+                        imgW:"1.84rem",
+                        class:"",
+                        title: "DuDu Driving School",
+                        des: "Brand Introduction; DuDu driving school is under Shanghai Dusheng information technology co. ltd. The company was established in August 2016. It’s an O2O driving school chain brand that provides professional driving test training service. Online and Offline ."
+                    },
+                    {
+                        img:"images/partners13.png",
+                        imgW:".88rem",
+                        class:"right right-m",
                         title: "Thinkskey",
                         des: "Thinkskey develops smart home solutions with industrial design as its core. Founded in Tsinghua Science and Technology Park by Li YiZhou, the company has gone from initially offering industrial design and innovative design consulting services, to manufacturing hardware and circuit boards, and developing software, to finally a smart home integrated solution provider with R&D and cloud algorithms."
                     },
                     {
+                        img:"images/partners14.png",
+                        imgW:".75rem",
+                        class:"right",
                         title: "SymbolTek",
                         des: "SymbolTek is a provider of video surveillance products and solutions. The company's main products include SVAC chips, modules, cameras and an intelligent video surveillance and analysis platform. SymbolTek possesses advanced audio and video codec algorithm chip design, a great amount of experience with product development and solution integration, and its products are widely used in areas such as smart cities, safe campuses and smart transportation. "
-                    }
-                ]
+                    },
+                    {
+                        img:"images/partners8.png",
+                        imgW:".62rem",
+                        class:"right right-m",
+                        title: "Shan Dian Shua Xin",
+                        des: "Shan Dian Shua Xin is a service platform for renovations. It provides services such as wall repainting and bathroom and kitchen renovations. With their Internet-based EPG management system, standardized renovation and transformation modules, and dedicated service to homeowners; Shan Dian Shua Xin has revolutionized the home decoration industry. The platform offers a seamless renovation experience and in doing so, has set higher standards of satisfaction for decoration service providers."
+                    }]
+                }]
             },
             item9: {
                 title: "Newsroom",
@@ -576,65 +729,218 @@ const language = {
             },
             item8: {
                 title: "合作伙伴",
-                class:["电子商务","数据分析","社交平台","服务行业"],
-                list: [
-                    {
+                class:[{
+                    tit:"电子商务",
+                    list:[{
+                        img:"images/partners1.png",
+                        imgW:"1.58rem",
+                        class:"",
                         title: "美会说",
                         des: "美会说是美会说（香港）有限公司专为中国女性打造的专业进口化妆品购物平台，是化妆品垂直行业的B2C网站。为保证产品品质，美会说直接从厂家代理或取得全国代理商的授权后，才进行产品销售，保证产品均为正品，让消费者拥有良好的品牌体验，进而取得消费者的信任。美会说承诺您优质、放心的购物体验。"
                     },
                     {
+                        img:"images/partners2.png",
+                        imgW:"1.22rem",
+                        class:"right-m",
                         title: "Gaia Tablescapes",
                         des: "Gaia Tablescapes® （盖娅风景）是来自美国的一个国际时尚家居生活品牌。Gaia Tablescapes 以餐桌产品为核心，以餐具、厨房用品、家居配饰为主，打造一种关于餐厅、厨房与客厅的内外兼修，精致而舒适的生活方式。"
                     },
                     {
+                        img:"images/partners3.png",
+                        imgW:".85rem",
+                        class:"",
                         title: "画你",
                         des: "画你是中国最大最早的2C用户形象IP定制平台，画你APP是中国首款真人手绘美图手机应用，拥有强大画师资源和海量手绘图库。为广大用户消费者提供高契合互动体验的2C业务板块，创造了中国最大的2C个人IP原创定制互动平台 ——画你(Honey)APP/小程序，汇聚了10000多名设计师及画师，超700万的用户可在“画你honey”平台上随心匹配知名画师，为自己定制专属卡通头像，二次元周边产品的设计及表情包创作，以高水准规范化的流程，和极具独特性和原创性的产品 "
                     },
                     {
+                        img:"images/partners4.png",
+                        imgW:".71rem",
+                        class:"right-m",
                         title: "深圳生态圈电子商务有限公司",
                         des: "深圳生态圈电子商务有限公司，是一家专注于互联网农业，集有机绿色食品的推广、营销及服务为一体的公司，通过微商的模式销售有机农产品，主营产品包括牛村长青汁、牛小红山楂、长白山野山参等。与hnb共同开发的好麦生态平台，是HNB最大力度支持的生态平台之一，消费者可以通过好麦平台直接购买天猫、淘宝、京东、拼多多、唯品的产品并获得HGS返现，同时消费者也可以直接使用HGS购买好麦平台上的自营产品"
                     },
                     {
+                        img:"images/partners15.png",
+                        imgW:"1.2rem",
+                        class:"",
+                        title: "诗幼乐",
+                        des: "新西兰诗幼乐（Seyala）是新西兰GMP乳业旗下的进口婴幼儿配方奶粉品牌，目前在中国市场销售的主要产品是新西兰诗幼乐SLC乳铁蛋白系列婴幼儿配方奶粉，包括：新西兰诗幼乐婴儿配方奶粉（0-6月龄，1段）、新西兰诗幼乐较大婴儿配方奶粉（6-12月龄，2段）和新西兰诗幼乐幼儿配方奶粉（12-36月龄，3段）"
+                    },
+                    {
+                        img:"images/partners16.png",
+                        imgW:"1.8rem",
+                        class:"right right-m",
+                        title: "Paw’s beauty",
+                        des: "追求挑战，充满活力，年轻时尚是我们最根本的灵感之源，拥有敢于追求极致，持续创造惊喜的品牌精神，为年轻一族打造拥有卓越外观，体验感及娱乐感的宠物用品，让您与宝贝的相处更轻松简单，回归快乐的本质。"
+                    },
+                    {
+                        img:"images/partners17.png",
+                        imgW:".68rem",
+                        class:"right",
+                        title: "碧然德",
+                        des: "碧然德BRITA， 全球领先的饮用水优化品牌，在许多国家它已经成为滤水壶的代名词。自1966年碧然德集团发明首个家用滤水壶以来，这个德国家族企业的业务如今已遍及五大洲的60余个国家，拥有18家国内和国际子公司、股份公司、销售和工业合作伙伴，并在德国、英国和瑞士设有多个制造工厂。"
+                    },
+                    {
+                        img:"images/partners18.png",
+                        imgW:".76rem",
+                        class:"right right-m",
+                        title: "樊登读书",
+                        des: "樊登读书会是基于移动互联网的学习型机构，是倡导“全民阅读”的先行者。我们的使命是帮助中国3亿人养成阅读习惯。樊登读书会提供形式多样的精华解读，以视频、音频、图文等多种形式呈现在樊登读书会APP上进行分享传播。樊登读书会以文字解读和视音频讲解的形式，帮助那些没有时间读书、不知道读哪些书和读书效率低的人群每年吸收50本书的精华内容。樊登读书会旨在帮助更多中国人养成阅读习惯，通过知识的传播来改善自我，造福社会。"
+                    },
+                    {
+                        img:"images/partners19.png",
+                        imgW:"1.78rem",
+                        class:"",
+                        title: "时尚芭莎",
+                        des: "《时尚芭莎》杂志是时尚杂志社的一本出品杂志，在大部分固定报亭和邮局都可购买，也是一本服务于中国精英女性阶层的时尚杂志，传播来自时装、美和女性的力量。"
+                    },
+                    {
+                        img:"images/partners20.png",
+                        imgW:"1.68rem",
+                        class:"right-m",
+                        title: "乐瑞",
+                        des: "乐瑞是复荣集团旗下核心品牌，其英文品牌是FLORY，是一个在全球三十多个国家获得注册的国际知名卫浴品牌。"
+                    },
+                    {
+                        img:"images/partners21.png",
+                        imgW:"1.58rem",
+                        class:"",
+                        title: "Skip hop",
+                        des: "Skip Hop以专业独特的时尚设计，开启新一代纽约潮流。至始至终严格准守格外高的标准，为所有小孩提供健康安全的生活用品，多数产品的制作标准符合美国材料实验协会（ASTM）认证"
+                    },
+                    {
+                        img:"images/partners22.png",
+                        imgW:"1.36rem",
+                        class:"right-m",
+                        title: "Quality 英语",
+                        des: "执品在线教育集团是一家总部位于加拿大多伦多的在线英语教育机构，执品英语的外教100%来自于北美，具备“英语作为第二外语教学”资质的专业人士。执品英语执着于锤炼最富品质和最地道的英语教育服务。执品英语依托北美最前沿的英语教学研究成果、专业负责的明星中外教老师，能快速提升小学员的英语听说读写四个维度的实际能力和应试分数，做到真正的能力分数双提高"
+                    },
+                    {
+                        img:"images/partners23.png",
+                        imgW:".66rem",
+                        class:"",
+                        title: "澳际",
+                        des: "澳际国际酒业集团，是澳大利亚知名酒业集团，澳洲葡萄酒商会理事单位。集团自成立之日起，始终致力于国际葡萄酒市场的开发与建立，以及高端葡萄酒文化的移植与传播。"
+                    },
+                    {
+                        img:"images/partners24.png",
+                        imgW:"1.58rem",
+                        class:"right right-m",
+                        title: "Paul Frank",
+                        des: "Paul Frank（大嘴猴）是和Calvin Klein齐名的国际知名品牌。它以色彩缤纷、年轻、可爱、时尚感吸引无数狂热粉丝，成为一个全球化的流行潮牌"
+                    },
+                    {
+                        img:"images/partners25.png",
+                        imgW:"1.9rem",
+                        class:"right",
+                        title: "Angry birds 愤怒的小鸟饼干",
+                        des: "愤怒的小鸟饼干，使用健康原材料打造品质好口味。"
+                    },
+                    {
+                        img:"images/partners26.png",
+                        imgW:"1.28rem",
+                        class:"right right-m",
+                        title: "Flat5 耳机",
+                        des: "第五单元是一种音乐和弦替换技术，它使用五分之一的循环，在音符“f”大声演奏时，给音符带来有趣的变化。"
+                    },
+                    {
+                        img:"images/partners27.png",
+                        imgW:"1.62rem",
+                        class:"",
+                        title: "Nomona 雷井",
+                        des: "互联网高端卫浴品牌，专注于家居卫浴产品自主设计，研发与生产，为每位注重家庭品味以及舒适享受的爱家人士带来全新的家庭卫浴网购体验。"
+                    },
+                    {
+                        img:"images/partners28.png",
+                        imgW:".94rem",
+                        class:"right-m",
+                        title: "薄荷旅游",
+                        des: "薄荷国际旅行社成立于2014年，拥有“薄荷假期” “行艺舒途” “玩青部落” “家游世界” 四大品牌核心主业。致力于高品质旅游体验，无微不至的服务，不断创新的产品思维理念，打造全球旅行产业平台。"
+                    }]
+                },{
+                    tit:"数据分析",
+                    list:[{
+                        img:"images/partners5.png",
+                        imgW:".71rem",
+                        class:"",
                         title: "XSleep",
                         des: "XSleep专业致力于软硬件一体化的数据健康睡眠研究。新一代XSleep智能床垫健康睡眠系统采用数据驱动的人工智能技术，准确无误的采集到用户的位置并读取数据，判断用户的健康的睡眠环境条件，根据用户的个性化数据进行智适应调节，量身定制真正个人专属的数据驱动的智慧睡眠系统。"
                     },
                     {
+                        img:"images/partners6.png",
+                        imgW:"1.25rem",
+                        class:"right-m",
                         title: "杭州小问智能科技有限公司",
                         des: "杭州小问智能科技有限公司于2015年02月16日成立，位于杭州市滨江区建业路511号华业大厦6层610室。公司专注于物联网大数据云服务平台的设计和开发，拥有智能控制平台和基于智能控制平台的全宅智能家居等产品和解决方案。ethome智家是杭州小问智能科技有限公司旗下的智能家居品牌，包含安防监控、灯光电气控制、智能环境监控、影音娱乐及老幼关爱等多个功能场景组合，并提供菜单选择式的定制化方案。"
-                    },
-                    {
+                    }]
+                },{
+                    tit:"社交平台",
+                    list:[{
+                        img:"images/partners7.png",
+                        imgW:".62rem",
+                        class:"right",
                         title: "宠物秀",
                         des: "宠物秀是一款以宠物图片搭配涂鸦的手机社区，打造基于宠物图片分享的社交平台"
-                    },
-                    {
-                        title: "闪电刷新",
-                        des: "闪电刷新是老房翻新改造服务平台，提供墙面刷新、卫生间厨房翻新等服务。以互联网化EPG管理系统，标准化翻新改造模块，用心的业主服务，重新打造满意的装修体验。"
-                    },
-                    {
+                    }]
+                },{
+                    tit:"服务行业",
+                    list:[{
+                        img:"images/partners9.png",
+                        imgW:"1.21rem",
+                        class:"",
                         title: "楼小易",
                         des: "楼小易是专业的企业办公楼（写字楼）的员工邮局运营商，通过线上线下结合的方式解决企业办公楼（写字楼）快递收发难题。楼小易正在为北汽集团、大唐移动、网易、中国工商银行等大型企业提供服务，同时还在为达美中心、鹏龙大厦，正东大厦，王府大厦这样的中高端写字楼内的精英企业提供服务。"
                     },
                     {
+                        img:"images/partners10.png",
+                        imgW:"1.5rem",
+                        class:"right-m",
                         title: "爱宠医生",
                         des: "爱宠医生是上海宠零宠网络科技有限公司旗下互联网宠物医疗平台，公司成立于2015年6月，坐落于上海浦东张江高科技园区，浦东软件园孵化企业。公司于2015年、2016年和2017年分别获得中金资本、普华资本、探针基金、盟典资产的4轮融资。目前公司拥有员工近百人，核心管理团队均为原互联网上市公司核心人员和宠物行业资深人士。"
                     },
                     {
+                        img:"images/partners11.png",
+                        imgW:".86rem",
+                        class:"",
                         title: "MCreativeCentre",
                         des: "MCreativeCentre ，娱乐公司，2010年创立于中国上海。培养经营全球化新生代艺人、艺术家，制作最受欢迎的音乐元素影视作品。"
                     },
                     {
+                        img:"images/partners12.png",
+                        imgW:"1.3rem",
+                        class:"right-m",
                         title: "零公里",
                         des: "「零公里」通过在商务楼内建立线下快递服务中心，结合信息化工具，定人定岗为商务楼提供快递及其他各类服务。「零公里」近距离为办公白领提供更好的快递收发体验、为企业提供更高效的快递管理工具，为快递网点降本增效，并衍生出其他一站式商务办公服务，从而系统性解决商务楼（企业）“最后100米”难题。「零公里」迄今已覆盖了100多栋商务楼，服务人群近百万。现已入驻：上海中心、金茂大厦、花旗集团大厦、东亚银行大厦、中国海关大厦、美罗大厦等百余幢知名楼宇。"
                     },
                     {
+                        img:"images/partners29.png",
+                        imgW:"1.84rem",
+                        class:"",
+                        title: "笃笃学车",
+                        des: "“笃笃学车”是上海笃胜信息科技有限公司旗下的互联网学车品牌，公司成立于2016年8月。是一个专业提供学车、驾考培训服务的互联网驾校连锁品牌，既有线上的学车服务平台，也有完整的线下培训服务体系。"
+                    },
+                    {
+                        img:"images/partners13.png",
+                        imgW:".88rem",
+                        class:"right right-m",
                         title: "匙悟科技",
                         des: "匙悟科技由清华大学设计学博士李一舟始创于清华科技园，先后在清华x-lab、创新工场接受孵化，从一开始的工业设计、创新设计咨询服务逐渐拓展到硬件和电路板制造、软件研发、云端算法构建的智能家居综合解决方案提供商。公司总部位于北京，在深圳设有硬件研发和生产基地，在硅谷设有海外业务拓展部和创新设计中心，是一家以工业设计为核心、研发智能家居解决方案的创新公司。"
                     },
                     {
+                        img:"images/partners14.png",
+                        imgW:".75rem",
+                        class:"right",
                         title: "北京欣博电子科技有限公司",
                         des: "北京欣博电子科技有限公司是视频监控产品和解决方案的提供商，国家安全防范监控数字视音频编解码技术标准（SVAC）的会员单位和SVAC2.0标准的编制单位。公司主要产品包括自有知识产权的SVAC芯片、模组、摄像机等产品和智能视频监控分析平台。欣博电子拥有丰富的音视频编解码算法芯片设计，产品研发和方案集成经验，产品广泛适用于智慧城市、平安校园和智慧交通等领域。"
-                    }
-                ]
+                    },
+                    {
+                        img:"images/partners8.png",
+                        imgW:".62rem",
+                        class:"right right-m",
+                        title: "闪电刷新",
+                        des: "闪电刷新是老房翻新改造服务平台，提供墙面刷新、卫生间厨房翻新等服务。以互联网化EPG管理系统，标准化翻新改造模块，用心的业主服务，重新打造满意的装修体验。"
+                    }]
+                }]
             },
             item9: {
                 title: "新闻",
@@ -828,65 +1134,219 @@ const language = {
             },
             item8: {
                 title: "Socios",
-                class:["Comercio electrónico","Analítica de datos","Red social","Proveedor de servicio"],
-                list: [
-                    {
+                class:[{
+                    tit:"Comercio electrónico",
+                    list:[{
+                        img:"images/partners1.png",
+                        imgW:"1.58rem",
+                        class:"",
                         title: "Beautalk",
                         des: "Beautalk es una plataforma B2C de comercio electrónico para cosméticos importados. Para poder garantizar una alta calidad del producto, Beautalk solo vende productos directamente del fabricante, al hacerlo, garantiza la autenticidad del producto, permitiendo a los consumidores tener una experiencia positiva con las marcas y ganar su confianza."
                     },
                     {
+                        img:"images/partners2.png",
+                        imgW:"1.22rem",
+                        class:"right-m",
                         title: "Gaia Tablescapes",
                         des: "Gaia Tablescapes es una marca internacional de Estados Unidos enfocado en hogar y estilo de vida. En el corazón de Gaia Tablescapes, la atención se centra en su vajilla,  utensilios de cocina y  accesorios para el hogar. Gaia Tablescapes pretende reflejar un estilo de vida elegante y cómodo al crear productos para el interior y el exterior de restaurantes, cocinas y salas de estar."
                     },
                     {
+                        img:"images/partners3.png",
+                        imgW:".85rem",
+                        class:"",
                         title: "Honey",
                         des: "Honey es la mayor plataforma de pinturas a  mano IP con más de 100,000 artistas y 30 millones de usuarios. Honey ha lanzado una herramienta de realización para fanáticos de KOL para ayudar a dirigir su propio negocio de pintura y vender productos periféricos. Actualmente, el token HGS se ha implementado como medio de pago para permitir que los usuarios paguen por los servicios de KOL. Además, Honey carece de un sistema de protección de derechos de autor efectivo, por lo que al integrarse en la comunidad de HNB, la propiedad intelectual de Honey estará protegida y los costos se reducirán."
                     },
                     {
+                        img:"images/partners4.png",
+                        imgW:".71rem",
+                        class:"right-m",
                         title: "Uncle Bull",
                         des: "Uncle Bull es una empresa de comercio electrónico que vende alimentos orgánicos y tiene más de 1,000 vendedores, 2,000 supermercados y 400,000 usuarios. La solución de pago mediante HGS token se ha integrado en la plataforma Uncle Bull. Los consumidores pueden comprar directamente productos de Tmall, Taobao, Jingdong, Pinduoduo, Vipshop y obtener un reembolso de HGS token."
                     },
-                    {
+                    // {
+                    //     img:"images/partners15.png",
+                    //     imgW:"1.2rem",
+                    //     class:"",
+                    //     title: "诗幼乐",
+                    //     des: "新西兰诗幼乐（Seyala）是新西兰GMP乳业旗下的进口婴幼儿配方奶粉品牌，目前在中国市场销售的主要产品是新西兰诗幼乐SLC乳铁蛋白系列婴幼儿配方奶粉，包括：新西兰诗幼乐婴儿配方奶粉（0-6月龄，1段）、新西兰诗幼乐较大婴儿配方奶粉（6-12月龄，2段）和新西兰诗幼乐幼儿配方奶粉（12-36月龄，3段）"
+                    // },
+                    // {
+                    //     img:"images/partners16.png",
+                    //     imgW:"1.8rem",
+                    //     class:"right right-m",
+                    //     title: "Paw’s beauty",
+                    //     des: "追求挑战，充满活力，年轻时尚是我们最根本的灵感之源，拥有敢于追求极致，持续创造惊喜的品牌精神，为年轻一族打造拥有卓越外观，体验感及娱乐感的宠物用品，让您与宝贝的相处更轻松简单，回归快乐的本质。"
+                    // },
+                    // {
+                    //     img:"images/partners17.png",
+                    //     imgW:".68rem",
+                    //     class:"right",
+                    //     title: "碧然德",
+                    //     des: "碧然德BRITA， 全球领先的饮用水优化品牌，在许多国家它已经成为滤水壶的代名词。自1966年碧然德集团发明首个家用滤水壶以来，这个德国家族企业的业务如今已遍及五大洲的60余个国家，拥有18家国内和国际子公司、股份公司、销售和工业合作伙伴，并在德国、英国和瑞士设有多个制造工厂。"
+                    // },
+                    // {
+                    //     img:"images/partners18.png",
+                    //     imgW:".76rem",
+                    //     class:"right right-m",
+                    //     title: "樊登读书",
+                    //     des: "樊登读书会是基于移动互联网的学习型机构，是倡导“全民阅读”的先行者。我们的使命是帮助中国3亿人养成阅读习惯。樊登读书会提供形式多样的精华解读，以视频、音频、图文等多种形式呈现在樊登读书会APP上进行分享传播。樊登读书会以文字解读和视音频讲解的形式，帮助那些没有时间读书、不知道读哪些书和读书效率低的人群每年吸收50本书的精华内容。樊登读书会旨在帮助更多中国人养成阅读习惯，通过知识的传播来改善自我，造福社会。"
+                    // },
+                    // {
+                    //     img:"images/partners19.png",
+                    //     imgW:"1.78rem",
+                    //     class:"",
+                    //     title: "时尚芭莎",
+                    //     des: "《时尚芭莎》杂志是时尚杂志社的一本出品杂志，在大部分固定报亭和邮局都可购买，也是一本服务于中国精英女性阶层的时尚杂志，传播来自时装、美和女性的力量。"
+                    // },
+                    // {
+                    //     img:"images/partners20.png",
+                    //     imgW:"1.68rem",
+                    //     class:"right-m",
+                    //     title: "乐瑞",
+                    //     des: "乐瑞是复荣集团旗下核心品牌，其英文品牌是FLORY，是一个在全球三十多个国家获得注册的国际知名卫浴品牌。"
+                    // },
+                    // {
+                    //     img:"images/partners21.png",
+                    //     imgW:"1.58rem",
+                    //     class:"",
+                    //     title: "Skip hop",
+                    //     des: "Skip Hop以专业独特的时尚设计，开启新一代纽约潮流。至始至终严格准守格外高的标准，为所有小孩提供健康安全的生活用品，多数产品的制作标准符合美国材料实验协会（ASTM）认证"
+                    // },
+                    // {
+                    //     img:"images/partners22.png",
+                    //     imgW:"1.36rem",
+                    //     class:"right-m",
+                    //     title: "Quality 英语",
+                    //     des: "执品在线教育集团是一家总部位于加拿大多伦多的在线英语教育机构，执品英语的外教100%来自于北美，具备“英语作为第二外语教学”资质的专业人士。执品英语执着于锤炼最富品质和最地道的英语教育服务。执品英语依托北美最前沿的英语教学研究成果、专业负责的明星中外教老师，能快速提升小学员的英语听说读写四个维度的实际能力和应试分数，做到真正的能力分数双提高"
+                    // },
+                    // {
+                    //     img:"images/partners23.png",
+                    //     imgW:".66rem",
+                    //     class:"",
+                    //     title: "澳际",
+                    //     des: "澳际国际酒业集团，是澳大利亚知名酒业集团，澳洲葡萄酒商会理事单位。集团自成立之日起，始终致力于国际葡萄酒市场的开发与建立，以及高端葡萄酒文化的移植与传播。"
+                    // },
+                    // {
+                    //     img:"images/partners24.png",
+                    //     imgW:"1.58rem",
+                    //     class:"right right-m",
+                    //     title: "Paul Frank",
+                    //     des: "Paul Frank（大嘴猴）是和Calvin Klein齐名的国际知名品牌。它以色彩缤纷、年轻、可爱、时尚感吸引无数狂热粉丝，成为一个全球化的流行潮牌"
+                    // },
+                    // {
+                    //     img:"images/partners25.png",
+                    //     imgW:"1.9rem",
+                    //     class:"right",
+                    //     title: "Angry birds 愤怒的小鸟饼干",
+                    //     des: "愤怒的小鸟饼干，使用健康原材料打造品质好口味。"
+                    // },
+                    // {
+                    //     img:"images/partners26.png",
+                    //     imgW:"1.28rem",
+                    //     class:"right right-m",
+                    //     title: "Flat5 耳机",
+                    //     des: "第五单元是一种音乐和弦替换技术，它使用五分之一的循环，在音符“f”大声演奏时，给音符带来有趣的变化。"
+                    // },
+                    // {
+                    //     img:"images/partners27.png",
+                    //     imgW:"1.62rem",
+                    //     class:"",
+                    //     title: "Nomona 雷井",
+                    //     des: "互联网高端卫浴品牌，专注于家居卫浴产品自主设计，研发与生产，为每位注重家庭品味以及舒适享受的爱家人士带来全新的家庭卫浴网购体验。"
+                    // },
+                    // {
+                    //     img:"images/partners28.png",
+                    //     imgW:".94rem",
+                    //     class:"right-m",
+                    //     title: "薄荷旅游",
+                    //     des: "薄荷国际旅行社成立于2014年，拥有“薄荷假期” “行艺舒途” “玩青部落” “家游世界” 四大品牌核心主业。致力于高品质旅游体验，无微不至的服务，不断创新的产品思维理念，打造全球旅行产业平台。"
+                    // }
+                ]
+                },{
+                    tit:"Analítica de datos",
+                    list:[{
+                        img:"images/partners5.png",
+                        imgW:".71rem",
+                        class:"",
                         title: "XSleep",
                         des: "XSleep se especializa en la investigación de datos de salud y sueño. El colchón inteligente XSleep de nueva generación y el sistema de sueño saludable utilizan tecnología de inteligencia artificial basada en información recolectada. XSleep recopila con precisión la ubicación del usuario y lee los datos, evalúa las condiciones del entorno de sueño saludable del usuario, realiza ajustes y adaptaciones de acuerdo con los datos personalizados del cliente. XSleep proporciona un sistema inteligente de sueño basado en datos que están verdaderamente adaptados a cada persona."
                     },
                     {
+                        img:"images/partners6.png",
+                        imgW:"1.25rem",
+                        class:"right-m",
                         title: "EThome",
                         des: "EThome se especializa en el diseño y desarrollo de elementos del Internet. También es una plataforma de servicios en la nube de macrodatos,  con una plataforma de control inteligente para electrodomésticos. Sus principales artículos incluyen una variedad de productos de vigilancia de seguridad, iluminación y control eléctrico, monitoreo de entornos inteligentes y entretenimiento audiovisual."
-                    },
-                    {
+                    }]
+                },{
+                    tit:"Red social",
+                    list:[{
+                        img:"images/partners7.png",
+                        imgW:".62rem",
+                        class:"right",
                         title: "Pet Show",
                         des: "Pet Show ha creado una red social donde los usuarios interactúan y socializan compartiendo sus fotos de mascotas."
-                    },
-                    {
-                        title: "Shan Dian Shua Xin",
-                        des: "Shan Dian Shua Xin es una plataforma de servicios para renovaciones. Brinda servicios como repintado de paredes y renovación de baños y cocinas. Con su sistema infórmatico basado en sistema de gestión de EPG , módulos de renovación y transformación estandarizados y servicio dedicado a los propietarios; Shan Dian Shua Xin ha revolucionado la industria de la decoración del hogar. La plataforma ofrece una experiencia de renovación perfecta y, al hacerlo, ha establecido mayores estándares de satisfacción para los proveedores de servicios de decoración."
-                    },
-                    {
+                    }]
+                },{
+                    tit:"Proveedor de servicio",
+                    list:[{
+                        img:"images/partners9.png",
+                        imgW:"1.21rem",
+                        class:"",
                         title: "Lou Xiao Yi",
                         des: "Lou Xiao Yi es un operador especializado de correos para edificios de oficinas corporativas. Resuelve problemas con la entrega de mensajería mediante la integración de sistemas en línea y fuera de línea. Lou Xiao Yi actualmente brinda servicios a grandes empresas como el Grupo BAIC, Datang Mobile, Netease y el Industrial and Commercial Bank of China. También brinda servicios a empresas de élite en edificios de oficinas de nivel medio a alto como Delta Center, Edificio Penglong, Edificio Zhengdong y Edificio Wangfu."
                     },
                     {
+                        img:"images/partners10.png",
+                        imgW:"1.5rem",
+                        class:"right-m",
                         title: "5ichong",
                         des: "5ichong proporciona una plataforma todo en uno para servicios y productos veterinarios. La plataforma incluye servicios financieros que permiten pagos en cuotas, la plataforma de compras B2B, el sistema de gestión inteligente del hospital veterinario SAAS, la plataforma de diagnóstico veterinario en línea y una institución veterinaria. Hay más de 2 millones de dueños de mascotas registrados con 5ichong, su operación cubre más de 200 ciudades, atiende a más de 10,000 clínicas veterinarias y cuenta con más de 20,000 profesionales veterinarios."
                     },
                     {
+                        img:"images/partners11.png",
+                        imgW:".86rem",
+                        class:"",
                         title: "MCreativeCentre",
                         des: "MCreativeCentre es una compañía de entretenimiento con sede en Shanghai que está cultivando una nueva generación de artistas en el panorama global. MCreativeCentre también realiza producciones musicales de clase mundial."
                     },
                     {
+                        img:"images/partners12.png",
+                        imgW:"1.3rem",
+                        class:"right-m",
                         title: "LingGongLi",
                         des: "LingGongLi proporciona una experiencia de entrega de mensajería mejorada para los trabajadores de oficina, herramientas de administración de entrega rápida más eficientes para las empresas, lo que resulta en una reducción de costos y una mayor eficiencia para los puntos de venta urgente. LingGongLi ha cubierto más de 100 edificios de oficinas hasta la fecha, sirviendo a casi un millón de personas. Ahora está presente en más de 100 edificios conocidos como el Centro de Shanghai, la Torre Jinmao, el Edificio Citigroup, el Edificio del Banco de Asia Oriental, el Edificio de Aduanas de China y el Edificio Meiluo."
                     },
+                    // {
+                    //     img:"images/partners29.png",
+                    //     imgW:"1.84rem",
+                    //     class:"",
+                    //     title: "Shan Dian Shua Xin",
+                    //     des: "Shan Dian Shua Xin is a service platform for renovations. It provides services such as wall repainting and bathroom and kitchen renovations. With their Internet-based EPG management system, standardized renovation and transformation modules, and dedicated service to homeowners; Shan Dian Shua Xin has revolutionized the home decoration industry. The platform offers a seamless renovation experience and in doing so, has set higher standards of satisfaction for decoration service providers."
+                    // },
                     {
+                        img:"images/partners13.png",
+                        imgW:".88rem",
+                        class:"right right-m",
                         title: "Thinkskey",
                         des: "Thinkskey desarrolla soluciones para el hogar inteligente con su núcleo en el diseño industrial. Fundada en el Parque Científico y Tecnológico Tsinghua por Li YiZhou, la empresa pasó de ofrecer inicialmente servicios de consultoría en diseño industrial y diseño innovador a hardware y placas de circuitos, y desarrollo de software, a un proveedor de soluciones integradas para el hogar inteligente con I+D y algoritmos de nube."
                     },
                     {
+                        img:"images/partners14.png",
+                        imgW:".75rem",
+                        class:"right",
                         title: "SymbolTek",
                         des: "SymbolTek es un proveedor de productos y soluciones de video-vigilancia, los principales productos de la compañía incluyen chips SVAC, módulos, cámaras y una plataforma inteligente de video vigilancia y análisis. SymbolTek posee un diseño avanzado de chip de algoritmo códec de audio y video, además de una gran cantidad de experiencia en el desarrollo de productos e integración de soluciones, y sus productos se utilizan ampliamente en áreas como ciudades inteligentes, campus seguros y transporte inteligente."
-                    }
-                ]
+                    },
+                    {
+                        img:"images/partners8.png",
+                        imgW:".62rem",
+                        class:"right right-m",
+                        title: "Shan Dian Shua Xin",
+                        des: "Shan Dian Shua Xin es una plataforma de servicios para renovaciones. Brinda servicios como repintado de paredes y renovación de baños y cocinas. Con su sistema infórmatico basado en sistema de gestión de EPG , módulos de renovación y transformación estandarizados y servicio dedicado a los propietarios; Shan Dian Shua Xin ha revolucionado la industria de la decoración del hogar. La plataforma ofrece una experiencia de renovación perfecta y, al hacerlo, ha establecido mayores estándares de satisfacción para los proveedores de servicios de decoración."
+                    }]
+                }]
             },
             item9: {
                 title: "Sala de prensa",

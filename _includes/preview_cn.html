@@ -384,121 +384,59 @@
         </section>
         <ul>
             <li>
-                <div class="tit"><i><img src="images/icon-partner1.png"></i><%=data.item8.class[0]%></div>
+                <div class="tit"><i><img src="images/icon-partner1.png"></i><%=data.item8.class[0].tit%></div>
                 <div class="list">
+                    <% for(var i=0; i<data.item8.class[0].list.length; i++){ %>
                     <div class="partner-box">
-                        <img src="images/partners1.png" style="width:.62rem">
-                        <div class="info">
-                            <h5><%=data.item8.list[0].title%></h5>
-                            <p><%=data.item8.list[0].des%></p>
+                        <img src="<%=data.item8.class[0].list[i].img%>" style="width:<%=data.item8.class[0].list[i].imgW%>">
+                        <div class="info <%=data.item8.class[0].list[i].class%>">
+                            <h5><%=data.item8.class[0].list[i].title%></h5>
+                            <p><%=data.item8.class[0].list[i].des%></p>
                         </div>
                     </div>
-                    <div class="partner-box">
-                        <img src="images/partners2.png" style="width:1.22rem">
-                        <div class="info right-m">
-                            <h5><%=data.item8.list[1].title%></h5>
-                            <p><%=data.item8.list[1].des%></p>
-                        </div>
-                    </div>
-                    <div class="partner-box">
-                        <img src="images/partners3.png" style="width:.85rem">
-                        <div class="info">
-                            <h5><%=data.item8.list[2].title%></h5>
-                            <p><%=data.item8.list[2].des%></p>
-                        </div>
-                    </div>
-                    <div class="partner-box">
-                        <img src="images/partners4.png" style="width:.71rem">
-                        <div class="info right-m">
-                            <h5><%=data.item8.list[3].title%></h5>
-                            <p><%=data.item8.list[3].des%></p>
-                        </div>
-                    </div>
+                    <% } %>
                 </div>
             </li>
             <li>
-                <div class="tit"><i><img src="images/icon-partner2.png"></i><%=data.item8.class[1]%></div>
+                <div class="tit"><i><img src="images/icon-partner4.png"></i><%=data.item8.class[3].tit%></div>
                 <div class="list">
+                    <% for(var i=0; i<data.item8.class[3].list.length; i++){ %>
                     <div class="partner-box">
-                        <img src="images/partners5.png" style="width:.71rem">
-                        <div class="info">
-                            <h5><%=data.item8.list[4].title%></h5>
-                            <p><%=data.item8.list[4].des%></p>
+                        <img src="<%=data.item8.class[3].list[i].img%>" style="width:<%=data.item8.class[3].list[i].imgW%>">
+                        <div class="info <%=data.item8.class[3].list[i].class%>">
+                            <h5><%=data.item8.class[3].list[i].title%></h5>
+                            <p><%=data.item8.class[3].list[i].des%></p>
                         </div>
                     </div>
-                    <div class="partner-box">
-                        <img src="images/partners6.png" style="width:1.25rem">
-                        <div class="info right-m">
-                            <h5><%=data.item8.list[5].title%></h5>
-                            <p><%=data.item8.list[5].des%></p>
-                        </div>
-                    </div>
+                    <% } %>
                 </div>
             </li>
             <li>
-                <div class="tit"><i><img src="images/icon-partner3.png"></i><%=data.item8.class[2]%></div>
+                <div class="tit"><i><img src="images/icon-partner2.png"></i><%=data.item8.class[1].tit%></div>
                 <div class="list">
+                    <% for(var i=0; i<data.item8.class[1].list.length; i++){ %>
                     <div class="partner-box">
-                        <img src="images/partners7.png" style="width:.62rem">
-                        <div class="info right">
-                            <h5><%=data.item8.list[6].title%></h5>
-                            <p><%=data.item8.list[6].des%></p>
+                        <img src="<%=data.item8.class[1].list[i].img%>" style="width:<%=data.item8.class[1].list[i].imgW%>">
+                        <div class="info <%=data.item8.class[1].list[i].class%>">
+                            <h5><%=data.item8.class[1].list[i].title%></h5>
+                            <p><%=data.item8.class[1].list[i].des%></p>
                         </div>
                     </div>
+                    <% } %>
                 </div>
             </li>
             <li>
-                <div class="tit"><i><img src="images/icon-partner4.png"></i><%=data.item8.class[3]%></div>
+                <div class="tit"><i><img src="images/icon-partner3.png"></i><%=data.item8.class[2].tit%></div>
                 <div class="list">
+                    <% for(var i=0; i<data.item8.class[2].list.length; i++){ %>
                     <div class="partner-box">
-                        <img src="images/partners8.png" style="width:.62rem">
-                        <div class="info">
-                            <h5><%=data.item8.list[7].title%></h5>
-                            <p><%=data.item8.list[7].des%></p>
+                        <img src="<%=data.item8.class[2].list[i].img%>" style="width:<%=data.item8.class[2].list[i].imgW%>">
+                        <div class="info <%=data.item8.class[2].list[i].class%>">
+                            <h5><%=data.item8.class[2].list[i].title%></h5>
+                            <p><%=data.item8.class[2].list[i].des%></p>
                         </div>
                     </div>
-                    <div class="partner-box">
-                        <img src="images/partners9.png" style="width:1.21rem">
-                        <div class="info right-m">
-                            <h5><%=data.item8.list[8].title%></h5>
-                            <p><%=data.item8.list[8].des%></p>
-                        </div>
-                    </div>
-                    <div class="partner-box">
-                        <img src="images/partners10.png" style="width:1.5rem">
-                        <div class="info">
-                            <h5><%=data.item8.list[9].title%></h5>
-                            <p><%=data.item8.list[9].des%></p>
-                        </div>
-                    </div>
-                    <div class="partner-box">
-                        <img src="images/partners11.png" style="width:.86rem">
-                        <div class="info right-m">
-                            <h5><%=data.item8.list[10].title%></h5>
-                            <p><%=data.item8.list[10].des%></p>
-                        </div>
-                    </div>
-                    <div class="partner-box">
-                        <img src="images/partners12.png" style="width:1.3rem">
-                        <div class="info">
-                            <h5><%=data.item8.list[11].title%></h5>
-                            <p><%=data.item8.list[11].des%></p>
-                        </div>
-                    </div>
-                    <div class="partner-box">
-                        <img src="images/partners13.png" style="width:.88rem">
-                        <div class="info right right-m">
-                            <h5><%=data.item8.list[12].title%></h5>
-                            <p><%=data.item8.list[12].des%></p>
-                        </div>
-                    </div>
-                    <div class="partner-box">
-                        <img src="images/partners14.png" style="width:.75rem">
-                        <div class="info right">
-                            <h5><%=data.item8.list[13].title%></h5>
-                            <p><%=data.item8.list[13].des%></p>
-                        </div>
-                    </div>
+                    <% } %>
                 </div>
             </li>
         </ul>

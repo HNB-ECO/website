@@ -631,17 +631,18 @@ h1.title p {
 
 .item8 ul {
     display: block;
+    font-size: 0;
 }
 
 .item8 ul li {
-    float: left;
-    width: 33.3%;
+    display: inline-block;
+    width: 40%;
+    margin-right: 10%;
 }
 
-.item8 ul li:last-child {
-    float: none;
-    clear: both;
+.item8 ul li:first-child,.item8 ul li:nth-child(2) {
     width: 100%;
+    margin-right: 0;
 }
 
 .item8 li .tit {
@@ -670,26 +671,24 @@ h1.title p {
 }
 
 .item8 li .list {
-    height: 2.6rem;
+    margin-bottom:.8rem;
+    box-shadow:0px 4px 8px 4px rgba(200,200,200,0.1);
 }
-
-.item8 ul li:last-child .list {
-    height: 1.8rem;
-}
-
 
 
 .item8 li .list .partner-box {
     position: relative;
-    float: left;
-    margin: 0 .2rem .2rem 0;
-    width: 2rem;
+    display: inline-block;
+    width: 2.2rem;
     height: .9rem;
     line-height: .9rem;
     background: rgba(255, 255, 255, 1);
-    box-shadow: 0px .02rem .15rem .07rem rgba(48, 93, 212, 0.1);
     border-radius: .04rem;
     text-align: center;
+}
+
+.item8 ul li:first-child .partner-box,.item8 ul li:nth-child(2) .partner-box {
+    width: 12.5%;
 }
 
 .item8 li .list .partner-box .info {
@@ -700,6 +699,7 @@ h1.title p {
     width: 6rem;
     padding: .4rem .5rem;
     z-index: 2;
+    font-size: .14rem;
     background:rgba(255,255,255,1);
     box-shadow:0px .02rem .25rem .1rem rgba(48,93,212,0.1);
     border-radius: .08rem;
