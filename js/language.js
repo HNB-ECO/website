@@ -197,8 +197,8 @@ const language = {
                     {
                         img:"images/partners3.png",
                         imgW:".85rem",
-                        title: "Honey",
                         class:"",
+                        title: "Honey",
                         des: "Honey is the largest hand-painted IP platform with more than 100,000 artists and 30 million users. Honey has launched a KOL fan realization tool to help run its own painting business and sell peripheral products. Currently, the HGS token has been implemented as the payment medium payment to allow users to pay for KOL services. Furthermore, Honey is lacking an effective copyright protection system, so by integrating into the HNB community, Honey’s IP would be protected and costs would be reduced. "
                     },
                     {
@@ -213,49 +213,49 @@ const language = {
                         imgW:"1.2rem",
                         class:"",
                         title: "Seyala",
-                        des: "Seyala is a brand of imported infant formula from New Zealand GMP Dairy. The main products currently sold in the Chinese market are New Zealand SLC Lactoferrin infant formula, include Formula milk powder (0-6 months old, 1 section), New Zealand larger infant formula (6-12 months old, 2 sections) and New Zealand infant formula (12-36 months old, 3 sections)"
+                        des: "New Zealand’s Seyala is a brand of imported infant formula that is owned by New Zealand’s GMP Dairy. The main product currently sold in the Chinese market is the New Zealand Shigile SLC Lactoferrin series of infant formula."
                     },
                     {
                         img:"images/partners16.png",
                         imgW:"1.8rem",
                         class:"right right-m",
                         title: "Paw’s Beauty",
-                        des: "Pursuing challenges, dynamic energy, young fashion is our most fundamental source of inspiration. Dare to pursue ultimate and continue to create pets product with excellent appearance, experience and entertainment for young pets lover. Let you and your pet easy to get alone with the essence of happiness."
+                        des: "Paw’s Beauty is a pet care product provider. Its main products include pet care cup, cat comb, pet cleansing cup and cleansing liquid."
                     },
                     {
                         img:"images/partners17.png",
                         imgW:".68rem",
                         class:"right",
                         title: "BRITA",
-                        des: "BRITA is the world's leading filter drinking water brand has become synonymous with filter water in many countries. Since the invention of the first domestic filter water in 1966, the German family business has now spread to more than 60 countries on five continents, with 18 domestic and international subsidiary company. Joint stock companies, sales and industrial partners and also has several manufacture plants in Germany, UK and Switzerland"
+                        des: "BRITA, the world’s leading drinking water optimization brand, has become synonymous with filter water bottles in many countries. Since the invention of the first domestic water filter jug ​​in 1966, the German family business has now spread to more than 60 countries on five continents, with 18 domestic and international subsidiaries, joint stock companies, sales and industrial partners. It also has several manufacturing plants in Germany, the UK and Switzerland."
                     },
                     {
                         img:"images/partners18.png",
                         imgW:".76rem",
                         class:"right right-m",
-                        title: "Fan Deng Reading",
-                        des: "Fan Deng reading club is a learning organization based on the mobile internet and a pioneer in “all-people reading”. Our mission is to help 300 million in China develop reading habits. Fan Deng reading club provides a variety of essential interpretations such as video, audio and graphic forms on App to help those who do not have time or don’t know which to read 50 books very year. Fan Deng reading Club aims to help more Chinese people to develop reading habits and improve themselves."
+                        title: "Fan Deng Reading Club",
+                        des: "The Fanden Reading Club is an education based mobile APP and a pioneer in advocating “all people reading.” Our mission is to help 300 million people in China develop reading habits. The Fanden Reading Club provides a variety of essential interpretations, which are presented in the Fanden Reading Club APP in various forms such as video, audio, and graphic. Fanden Reading will help those who do not have time to study or do not know which books to read, absorb the essence of 50 books every year, in the form of text interpretation, video and audio explanations. The Fanden Reading Club aims to help more Chinese develop reading habits and improve themselves through the dissemination of knowledge for the benefit of society."
                     },
                     {
                         img:"images/partners19.png",
                         imgW:"1.78rem",
                         class:"",
                         title: "Bazaar",
-                        des: "Bazaar magazine is a fashion magazine, which can be purchased in most newsstands and post offices. Also serving empower elite women from fashion and beauty"
+                        des: "Bazaar magazine is a fashion magazine, which can be purchased in most fixed news stands. It is also a fashion magazine serving the elite female class in China, spreading the power of fashion and beauty to women."
                     },
                     {
                         img:"images/partners20.png",
                         imgW:"1.68rem",
                         class:"right-m",
                         title: "FLORY",
-                        des: "FLORY is the core brand of Furong Group. It is an international brand registered in more than 30 countries around the world. "
+                        des: "FLORY is the core brand of the Furong Group. Founded in 1999, Furong Group was founded by Fudan University and Shanghai Jiaotong University alumni. It supplies more than 1000 varieties of sanitary products to more than 70 countries around the world, and its products are exported to 79 countries around the world."
                     },
                     {
                         img:"images/partners21.png",
                         imgW:"1.58rem",
                         class:"",
                         title: "Skip Hop",
-                        des: "At Skip Hop, we re-think, re-energize and re-engineer products to infuse joy. Endlessly curious, we're constantly questioning functionality, form and design. As a global lifestyle brand, our core philosophy begins and ends with 'Must-Haves Made Better' — an unwavering passion for well-curated, smartly designed essentials for parents, babies and toddlers."
+                        des: "Skip Hop is a fashionable luxury baby brand from New York, USA, which sells well in many countries around the world. Skip Hop attaches great importance to product safety, constantly improving the details of each product, pursuing high quality, and is committed to creating safe, unique, novel products. Skip Hop products are designed for parents with the intention of making the process of raising children more interesting. In 2006, they won the “Baldridge National Quality Award” in the United States. In terms of innovation, design and the highest standards of quality products, Skip Hop has become a global brand recognized by the visionary parents."
                     },
                     {
                         img:"images/partners22.png",
@@ -276,7 +276,7 @@ const language = {
                         imgW:"1.58rem",
                         class:"right right-m",
                         title: "Paul Frank",
-                        des: "Paul Frank began in 1995 in a small Huntington Beach garage when Paul Frank himself began sewing custom wallets as gifts for his friends. His products were unique and people couldn’t find anything like them anywhere else. His gifts consisted of whimsical characters with names like Julius and Skurvy"
+                        des: "Paul Frank is an internationally renowned brand, recognizable all across the globe. It attracts countless fanatics with colorful, young, cute and fashionable styles and has become a globally popular fashion brand. The cartoon character of the big mouthed monkey “Julius” has appeared in costumes, shoes, children’s shoes, underwear, swimwear, pajamas, furniture, watches, tables, sunglasses, children’s wear, cartoon books and even bicycles."
                     },
                     {
                         img:"images/partners25.png",
@@ -290,21 +290,35 @@ const language = {
                         imgW:"1.28rem",
                         class:"right right-m",
                         title: "Flat 5",
-                        des: "Flat 5 is a technique for music chord substitution using the Cycle of Fifths that brings about interesting variation to the note while the notation “f” performs it loud."
+                        des: "Originally from Japan, the fFlat5 team is a group of professional audiophiles who are truly committed to sound excellence. We are engineers, designers and audiophiles. We all share two passions: MUSIC and STYLE. Our common goal is to bring fashionable audio accessories into the market without compromising audio quality. We dream of honoring music lovers in the world with the best headphone experience. “Therefore we strive to ‘change the note’ and bring music back to life.”"
                     },
                     {
                         img:"images/partners27.png",
                         imgW:"1.62rem",
                         class:"",
                         title: "Nomona",
-                        des: "Online High-end bathroom brand , focusing on independent design, research and development and production of home bathroom products. Bringing a new home bathroom online shopping experience for everyone who cares about taste and comfort"
+                        des: "Nomona is an high-end sanitary ware brand, focusing on the independent design, research and development and production of home bathroom products. Nomona brings a new family bathroom experience to everyone who cares about taste and comfort."
                     },
                     {
                         img:"images/partners28.png",
                         imgW:".94rem",
                         class:"right-m",
                         title: "Mint Holiday",
-                        des: "Mint International travel service was established in 2014, with “Mint Holiday” “Artistic Comfort” “Playful Tribe” “Family World”. Committed to high quality travel experience, service. Creating global travel industry platform with innovation."
+                        des: "Mint Holidays focuses on providing Chinese tourists and major travel agencies with boutique travel routes to Australia and New Zealand. It is the earliest Australian and New Zealand travel route provider in China."
+                    },
+                    {
+                        img:"images/partners30.png",
+                        imgW:"1.88rem",
+                        class:"",
+                        title: "Kenzo",
+                        des: "KENZO is a brand founded by Takada Kenzo in France. It combines the calm and artistic conception of oriental culture, the passion and liveliness of the Latin nation, and boldly and innovatively combines vivid colors and flowers to create a lively, bright, elegant and unique look. KENZO has been in the fashion industry since 1970 and joined the LVMH Group in 1993. Since then, KENZO’s clothing, accessories, tableware and perfumes have been widely sought after."
+                    },
+                    {
+                        img:"images/partners31.png",
+                        imgW:"1.28rem",
+                        class:"right-m",
+                        title: "LongMi",
+                        des: "Longmi is a high-end brand of China’s WuChang rice. It is created by the instant nitrogen filling process to ensure that rice is unoxidized, moisture-free, and long-lasting to keep rice fresh. The freshly harvested rice is refrigerated and can be filled with nitrogen immediately after shelling. In addition to ensuring the freshness and nutrition of the rice, it can prevent rice from tidal, long-worm and mold. Longmi has more than one million users and annual sales of over 100 million."
                     }]
                 },{
                     tit:"Data Analytics",
@@ -366,7 +380,7 @@ const language = {
                         imgW:"1.84rem",
                         class:"",
                         title: "DuDu Driving School",
-                        des: "Brand Introduction; DuDu driving school is under Shanghai Dusheng information technology co. ltd. The company was established in August 2016. It’s an O2O driving school chain brand that provides professional driving test training service. Online and Offline ."
+                        des: "DuDu driving school is under Shanghai Dusheng information technology co. ltd. The company was established in August 2016. It’s an O2O driving school chain brand that provides professional driving test training service. Online and Offline ."
                     },
                     {
                         img:"images/partners13.png",
@@ -856,6 +870,20 @@ const language = {
                         class:"right-m",
                         title: "薄荷旅游",
                         des: "薄荷国际旅行社成立于2014年，拥有“薄荷假期” “行艺舒途” “玩青部落” “家游世界” 四大品牌核心主业。致力于高品质旅游体验，无微不至的服务，不断创新的产品思维理念，打造全球旅行产业平台。"
+                    },
+                    {
+                        img:"images/partners30.png",
+                        imgW:"1.88rem",
+                        class:"",
+                        title: "Kenzo",
+                        des: "KENZO是由高田贤三在法国创立的品牌，结合了东方文化的沉稳意境、拉丁民族的热情活泼，大胆创新的融合了缤纷色彩与花朵，创造出活泼明亮、优雅独特的作品。"
+                    },
+                    {
+                        img:"images/partners31.png",
+                        imgW:"1.28rem",
+                        class:"right-m",
+                        title: "LongMi",
+                        des: "顶级五常大米，用户超过100万，销量超过3000,0000罐的中国大米领先品牌"
                     }]
                 },{
                     tit:"数据分析",
