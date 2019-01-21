@@ -477,16 +477,36 @@ h1.title p {
     border-left: #E9E9E9 solid 1px; 
     border-radius: 0 0 0 1.4rem;
 }
+.item4 li .border3-left2 {
+    border-bottom: #008FE9 solid 1px; 
+    border-left: #008FE9 solid 1px; 
+    border-radius: 0 0 0 1.4rem;
+}
+.item4 li .border1-m-left {
+    border-top: #008FE9 solid 1px; 
+    border-left: #008FE9 solid 1px; 
+    border-radius: 1.4rem 0 0 0;
+}
+.item4 li .border1-m-right {
+    border-top: #E9E9E9 solid 1px; 
+    border-right: #E9E9E9 solid 1px; 
+    border-radius: 0 1.4rem 0 0;
+}
+.item4 li .border2-m-right {
+    border-bottom: #E9E9E9 solid 1px; 
+    border-right: #E9E9E9 solid 1px; 
+    border-radius: 0 0 1.4rem 0;
+}
 .item4 li .colorB {
     color:#008FE9;
 }
 .item4 li p em {
     position: absolute;
-    left: 0;
+    right: 0;
     top: -0.05rem;
     width:50%;
     height: .1rem;
-    background:linear-gradient(90deg,rgba(40,79,204,1) 0%,rgba(89,168,255,1) 100%);
+    background:linear-gradient(270deg,rgba(40,79,204,1) 0%,rgba(89,168,255,1) 100%);
     box-shadow:0px .02rem .12rem .1rem rgba(0,143,233,0.13);
     border-radius: .1rem;
 }

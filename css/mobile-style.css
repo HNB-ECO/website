@@ -233,21 +233,6 @@
         height: .12rem;
         padding: .04rem;
     }
-    .item4 li .border1-m-left {
-        border-top: #008FE9 solid 1px; 
-        border-left: #008FE9 solid 1px; 
-        border-radius: 1.4rem 0 0 0;
-    }
-    .item4 li .border1-m-right {
-        border-top: #E9E9E9 solid 1px; 
-        border-right: #E9E9E9 solid 1px; 
-        border-radius: 0 1.4rem 0 0;
-    }
-    .item4 li .border2-m-right {
-        border-bottom: #E9E9E9 solid 1px; 
-        border-right: #E9E9E9 solid 1px; 
-        border-radius: 0 0 1.4rem 0;
-    }
     .item5 ul li {
         width: 1.6rem;
         height: 2.3rem;
