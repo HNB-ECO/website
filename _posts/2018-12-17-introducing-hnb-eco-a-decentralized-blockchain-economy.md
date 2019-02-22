@@ -27,7 +27,7 @@ In the cross-chain interaction of the HNB main side chain, there are two cases o
 The HNB Ecosystem
 The HNB wallet is the key to unlock the HNB ecosystem. We launched the wallet in early August to a small group of loyal users, and as of today, we have 15,000 members using the wallet.
 User adoption is one of the challenges that the blockchain industry is facing, so we have designed the wallet with the customer’s experience in mind. Log in to the wallet to view your HNB, HGS and ETH balances in your Ethereum wallet, join the HNB academy to learn more about blockchain technology and the HNB ecosystem, try your luck with the HNB DICE game to win HGS or make your first e-commerce purchase through the Uncle Bull(好麦) store in the HNB ecosystem — the options are endless!
-[DOWNLOAD THE HNB WALLET HERE](https://www.pgyer.com/W11h)
+[DOWNLOAD THE HNB WALLET HERE](https://fir.im/HNBA)
 ![pic2](http://47.75.189.85:4000/1-LhdZlyDSHWgOJUo6Z-Kwhw.png)
 
 Follow us on Twitter to stay up-to-date with our latest announcements. Join our official HNB Telegram group to join the conversation with our community and team members.
