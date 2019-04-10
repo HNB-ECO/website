@@ -96,10 +96,10 @@ const language = {
                         des: "Store your digitals assets in a highly secure mobile wallet"
                     }
                 ],
-                btnTxt: "Download the wallet"
+                btnTxt: "Download the blockchain wallet"
             },
             item4: {
-                title: "Roadmap",
+                title: "HNB Roadmap",
                 list: [
                     {
                         title: "RESEARCH",
@@ -140,7 +140,7 @@ const language = {
                 ]
             },
             item5: {
-                title: "Leadership Team",
+                title: "HNB Leadership Team",
                 list: [
                     {
                         name: "Ken Lee",
@@ -170,16 +170,16 @@ const language = {
                 ]
             },
             item6: {
-                title: "Advisors"
+                title: "HNB Advisors"
             },
             item7: {
-                title: "Strategic partners",
+                title: "HNB Strategic partners",
                 list: ["Probing Fund","BN Capital","Creative Fund","E-Fund","MyTech Fund","HongLian Capital","BetaCoin Fund","Skyline Capital","Atlas Capital","TimeLine"]
             },
             item8: {
-                title: "Partners",
+                title: "HNB Partners",
                 class:[{
-                    tit:"E-commerce",
+                    tit:"Blockchain E-commerce",
                     list:[{
                         img:"images/partners1.png",
                         imgW:"1.58rem",
@@ -321,7 +321,7 @@ const language = {
                         des: "Longmi is a high-end brand of China’s WuChang rice. It is created by the instant nitrogen filling process to ensure that rice is unoxidized, moisture-free, and long-lasting to keep rice fresh. The freshly harvested rice is refrigerated and can be filled with nitrogen immediately after shelling. In addition to ensuring the freshness and nutrition of the rice, it can prevent rice from tidal, long-worm and mold. Longmi has more than one million users and annual sales of over 100 million."
                     }]
                 },{
-                    tit:"Data Analytics",
+                    tit:"HNB Data Analytics",
                     list:[{
                         img:"images/partners5.png",
                         imgW:".71rem",
@@ -337,7 +337,7 @@ const language = {
                         des: "EThome specializes in the design and development of the Internet of Things. It is also a Big Data cloud service platform, with an intelligent control platform for home appliances. Its main products include a combination of security surveillance, lighting and electrical control, intelligent environment monitoring and audio-visual entertainment."
                     }]
                 },{
-                    tit:"Social Network",
+                    tit:"HNB Social Network",
                     list:[{
                         img:"images/partners7.png",
                         imgW:".62rem",
@@ -346,7 +346,7 @@ const language = {
                         des: "Pet Show has created a social network where users interact and socialise through the sharing of their pet pictures."
                     }]
                 },{
-                    tit:"Service provider",
+                    tit:"HNB Service provider",
                     list:[{
                         img:"images/partners9.png",
                         imgW:"1.21rem",
@@ -406,7 +406,7 @@ const language = {
                 }]
             },
             item9: {
-                title: "Newsroom",
+                title: "HNB Newsroom",
                 btnTxt: "All News"
             }
         },
@@ -661,10 +661,10 @@ const language = {
                         des: "更安全可靠的加密资产储存"
                     }
                 ],
-                btnTxt: "下载钱包"
+                btnTxt: "下载区块链钱包"
             },
             item4: {
-                title: "里程碑",
+                title: "HNB里程碑",
                 list: [
                     {
                         title: "调查",
@@ -705,7 +705,7 @@ const language = {
                 ]
             },
             item5: {
-                title: "团队成员",
+                title: "HNB团队成员",
                 list: [
                     {
                         name: "Ken Lee",
@@ -735,16 +735,16 @@ const language = {
                 ]
             },
             item6: {
-                title: "项目顾问"
+                title: "HNB项目顾问"
             },
             item7: {
-                title: "战略合作伙伴",
+                title: "HNB战略合作伙伴",
                 list: ["探针天使","犇睿资本","创新马槽","E-Fund","麦腾创投","红链资本","BetaCoin Fund","天链资本","寰与资本","TimeLine"]
             },
             item8: {
-                title: "合作伙伴",
+                title: "HNB合作伙伴",
                 class:[{
-                    tit:"电子商务",
+                    tit:"区块链电子商务",
                     list:[{
                         img:"images/partners1.png",
                         imgW:"1.58rem",
@@ -886,7 +886,7 @@ const language = {
                         des: "顶级五常大米，用户超过100万，销量超过3000,0000罐的中国大米领先品牌"
                     }]
                 },{
-                    tit:"数据分析",
+                    tit:"HNB数据分析",
                     list:[{
                         img:"images/partners5.png",
                         imgW:".71rem",
@@ -902,7 +902,7 @@ const language = {
                         des: "杭州小问智能科技有限公司于2015年02月16日成立，位于杭州市滨江区建业路511号华业大厦6层610室。公司专注于物联网大数据云服务平台的设计和开发，拥有智能控制平台和基于智能控制平台的全宅智能家居等产品和解决方案。ethome智家是杭州小问智能科技有限公司旗下的智能家居品牌，包含安防监控、灯光电气控制、智能环境监控、影音娱乐及老幼关爱等多个功能场景组合，并提供菜单选择式的定制化方案。"
                     }]
                 },{
-                    tit:"社交平台",
+                    tit:"HNB社交平台",
                     list:[{
                         img:"images/partners7.png",
                         imgW:".62rem",
@@ -911,7 +911,7 @@ const language = {
                         des: "宠物秀是一款以宠物图片搭配涂鸦的手机社区，打造基于宠物图片分享的社交平台"
                     }]
                 },{
-                    tit:"服务行业",
+                    tit:"HNB服务行业",
                     list:[{
                         img:"images/partners9.png",
                         imgW:"1.21rem",
@@ -971,7 +971,7 @@ const language = {
                 }]
             },
             item9: {
-                title: "新闻",
+                title: "HNB新闻",
                 btnTxt: "更多新闻",
                 prefix:"cn"
             }

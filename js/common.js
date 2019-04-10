@@ -12,6 +12,11 @@ $(function() {
     } else {
         autoChange(375, 100)
     }
+    
+    window.addEventListener('scroll', function(){
+        document.documentElement.scrollTop < 24 ? $('.head-fix').removeClass('head-shadow') : $('.head-fix').addClass('head-shadow')
+    })
+
     if(!sessionStorage.getItem('language')){
         var lang = (navigator.language || navigator.browserLanguage).toLowerCase().substr(0, 2);
         if(lang == 'zh'){
@@ -24,6 +29,7 @@ $(function() {
             sessionStorage.setItem('language','en')
         }
     }
+
     let lan = sessionStorage.getItem('language'),
         cn = window.location.href.indexOf('/cn') != -1,
         sp = window.location.href.indexOf('/sp') != -1,
@@ -53,6 +59,11 @@ $(function() {
             $('#mainBox').html(miniTpl($('#mainBoxTmpl').html(), language.en.main));
             $('#mainEmail').html(miniTpl($('#mainEmailTmpl').html(), language.en.email));
         }
+    }
+
+    window.onload = function(){
+        $('.loading').hide();
+        $('.wrapper').show();
     }
 
     $(".more").click(function(){
@@ -99,8 +110,6 @@ $(function() {
     $('.language p').click(function(){
         $(this).parent().find("ul").slideToggle()
     }) 
-
-    $('body').show();
 
     $(".main").on("click","#emailBtn",function(){
         if(!$("#emailTxt").val()){
