@@ -1,7 +1,7 @@
 const language = {
     en: {
         header: {
-            top: "The HNB wallet has gone live now. Download and earn your first 30 HGS （write Invitation code  79OLBE）",
+            top: "The HNB wallet has gone live now. Download and earn your first 30 HGS （write Invitation code  WLSQOC）",
             nav: [
                 {
                     name: "Features",
@@ -566,7 +566,7 @@ const language = {
     },
     cn: {
         header: {
-            top: "HNB 小钱包上线啦，下载下钱包获得 30 HGS （请写邀请码:79OLBE）",
+            top: "HNB 小钱包上线啦，下载下钱包获得 30 HGS （请写邀请码:WLSQOC）",
             nav: [
                 {
                     name: "特点",
@@ -985,7 +985,7 @@ const language = {
     },
     sp: {
         header: {
-            top: "Ahora la billetera HNB ha salido en vivo. Descarga y gana tus primeros 30 HGS (Escribe el código de invitación: 79OLBE）",
+            top: "Ahora la billetera HNB ha salido en vivo. Descarga y gana tus primeros 30 HGS (Escribe el código de invitación: WLSQOC）",
             nav: [
                 {
                     name: "Características",
